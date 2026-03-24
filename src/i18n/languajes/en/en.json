@@ -1,0 +1,940 @@
+{
+    "seo": {
+        "home": {
+        "title": "ShieldGrid365 | Enterprise GRC Platform",
+        "description": "Enterprise platform for governance, risk management and compliance automation."
+        },
+        "login": {
+        "title": "Login | ShieldGrid365",
+        "description": "Secure access to your GRC dashboard."
+        },
+        "demo": {
+        "title": "Request a Demo | ShieldGrid365",
+        "description": "Schedule a personalized demo of our enterprise GRC platform."
+        }
+    },
+    "menu": {
+        "product": "Product",
+            "overview": "Overview",
+            "risk": "Risk Management",
+            "compliance-automation": "Compliance Automation",
+            "audit": "Audit Management",
+            "mobile-app": "Mobile App for Monitoring and Tracking",
+
+        "solutions": "Solutions",
+            "banking": "Banking & Finance",
+            "healthcare": "Healthcare",
+            "technology": "Technology & SaaS",
+            "retail": "Retail & E-commerce",
+            "manufacturing": "Manufacturing",
+            "government": "Government",
+
+        "compliance": "Compliance",
+            "iso42001": "ISO 42001",
+            "gdpr": "GDPR Compliant",
+            "pci": "PCI DSS",
+            "dg": "Data governance",
+
+        "resources": "Resources",
+            "blog": "Blog",
+            "case-studies": "Case Studies",
+            "webinars": "Webinars",
+            "documentation": "Documentation",
+            "tools": "Tools",
+
+        "pricing": "Pricing",
+            "essential": "Essential",
+            "growth": "Growth",
+            "enterprise": "Enterprise"
+    },
+
+    "menuHeader":{
+        "login": "Login",
+        "demo": "Demo"
+    },
+
+    "pages":{
+        "welcome": 
+            {
+            "hero": {
+                "title": "Enterprise GRC Platform",
+                "highlight": "Built for scale",
+                "description": "A unified platform to manage governance, risk, and compliance across your organization.",
+                "cta": {
+                "login": "Sign in",
+                "demo": "Request a demo"
+                }
+            },
+
+            "productOverview": {
+                "header": {
+                "badge": "THE PLATFORM",
+                "title": "Everything You Need for",
+                "highlight": "Enterprise GRC",
+                "description": "A unified platform that simplifies governance, risk management, and compliance."
+                },
+                "features": {
+                "risk": {
+                    "title": "Risk Management",
+                    "description": "Identify, assess, and mitigate risks in real time.",
+                    "bullets": [
+                        "Real-time risk assessment",
+                        "Automated risk scoring",
+                        "Heat mapping & visualization"
+                    ],
+                    "cta": "Explore risk features"
+                },
+                "compliance": {
+                    "title": "Compliance Automation",
+                    "description": "Automate compliance across multiple frameworks and regulations.",
+                    "bullets": ["150+ regulations supported", "Automated evidence collection", "Regulatory change alerts"],
+                    "cta": "View compliance features"
+                },
+                "audit": {
+                    "title": "Audit Management",
+                    "description": "Streamline internal and external audits efficiently.",
+                    "bullets": ["Audit workflow automation", "Finding & remediation tracking", "Board-ready reporting"],
+                    "cta": "See audit tools"
+                }
+                },
+                "dashboard": {
+                "title": "Unified Dashboard",
+                "description": "Get a real-time overview of your GRC posture.",
+                "stats": {
+                    "uptime": {
+                    "value": "99.9%",
+                    "label": "Platform uptime"
+                    },
+                    "resolution": {
+                    "value": "<24h",
+                    "label": "Mean time to resolution"
+                    },
+                    "auditReduction": {
+                    "value": "85%",
+                    "label": "Audit time reduction"
+                    },
+                    "riskSpeed": {
+                    "value": "60%",
+                    "label": "Faster risk assessment"
+                    }
+                }
+                }
+            },
+
+            "solutions": {
+                "header": {
+                "badge": "SOLUTIONS",
+                "title": "Solutions for",
+                "highlight": "Every Industry",
+                "description": "Tailored GRC solutions for different industries and business needs."
+                },
+                "industries": {
+                "banking": {
+                    "tag": "FINANCE",
+                    "title": "Banking & Finance",
+                    "description": "Manage financial risk and regulatory compliance.",
+                    "bullets": ["SOX Compliance", "Basel III/IV", "Anti-Money Laundering"],
+                    "successMetric": {
+                    "label": "Risk reduction",
+                    "value": "40%"
+                    }
+                },
+                "healthcare": {
+                    "tag": "HEALTHCARE",
+                    "title": "Healthcare",
+                    "description": "Ensure patient data security and compliance.",
+                    "bullets": ["HIPAA Compliance", "FDA Regulations", "Patient Data Security"],
+                    "successMetric": {
+                    "label": "Compliance coverage",
+                    "value": "99.5%"
+                    }
+                },
+                "technology": {
+                    "tag": "TECH",
+                    "title": "Technology & SaaS",
+                    "description": "Scale compliance with fast-growing tech teams.",
+                    "bullets": ["SOC 2 Compliance", "ISO 42001", "Cloud Security"],
+                    "successMetric": {
+                    "label": "Deployment speed",
+                    "value": "3x faster"
+                    }
+                },
+                "retail": {
+                    "tag": "RETAIL",
+                    "title": "Retail & E-commerce",
+                    "description": "Protect customer data and transactions.",
+                    "bullets": ["PCI DSS Compliance", "GDPR/CCPA", "Supply Chain Risk"],
+                    "successMetric": {
+                    "label": "Incident reduction",
+                    "value": "50%"
+                    }
+                },
+                "manufacturing": {
+                    "tag": "MANUFACTURING",
+                    "title": "Manufacturing",
+                    "description": "Control operational and supply chain risks.",
+                    "bullets": ["ISO 9001/14001", "OSHA Compliance", "Supply Chain Compliance"],
+                    "successMetric": {
+                    "label": "Audit efficiency",
+                    "value": "30% reduction in incidents"
+                    }
+                },
+                "custom": {
+                    "tag": "CUSTOM",
+                    "title": "Custom Solutions",
+                    "description": "Tailored GRC programs for unique needs.",
+                    "bullets": ["Custom Workflows", "Dedicated Support"],
+                    "cta": "Talk to an expert"
+                }
+                },
+                "results": {
+                    "title": "Proven Results",
+                    "description": "Measurable impact across industries.",
+                    "items": [
+                        {
+                            "value": "85%",
+                            "title": "Faster compliance reporting for Global Bipk",
+                            "description": "Reduced monthly compliance reporting from 2 weeks to 2 days."
+                        },
+                        {
+                            "value": "$2.3M",
+                            "title": "Annual savings for Healthcare Provider",
+                            "description": "Reduced manual audit work and avoided compliance penalties."
+                        },
+                        {
+                            "value": "12 Weeks",
+                            "title": "To SOC 2 compliance for Tech Startup",
+                            "description": "Accelerated enterprise sales with ready compliance documentation."
+                        }
+                ]},
+                "cta": {
+                "title": "See It in Action",
+                "description": "Discover how our platform fits your business.",
+                "action": "Request a demo"
+                }
+            },
+
+            "compliance": {
+                "header": {
+                "badge": "COMPLIANCE",
+                "title": "Global",
+                "highlight": "Compliance Coverage",
+                "description": "Support for major global regulatory frameworks."
+                },
+                "globalCoverage": {
+                "title": "Worldwide Standards",
+                "description": "Comprehensive compliance coverage.",
+                "primaryFrameworks": {
+                    "gdpr": {
+                    "region": "EU",
+                    "tag": "GDPR",
+                    "title": "General Data Protection Regulation",
+                    "description": "Data protection and privacy regulation.",
+                    "coverage": "Full"
+                    },
+                    "hipaa": {
+                    "region": "US",
+                    "tag": "HIPAA",
+                    "title": "Health Insurance Portability and Accountability Act",
+                    "description": "Healthcare data protection.",
+                    "coverage": "Full"
+                    },
+                    "soc2": {
+                    "region": "US",
+                    "tag": "SOC 2",
+                    "title": "Service Organization Controls",
+                    "description": "Security and availability controls.",
+                    "coverage": "Full"
+                    },
+                    "iso42001": {
+                    "region": "Global",
+                    "tag": "ISO 42001",
+                    "title": "Information Security Management",
+                    "description": "ISMS certification.",
+                    "coverage": "Full"
+                    }
+                },
+                "secondaryFrameworks": []
+                },
+                "lifecycle": {
+                "title": "Compliance Lifecycle",
+                "description": "From assessment to continuous monitoring.",
+                "steps": []
+                },
+                "comparison": {
+                    "title": "Manual vs Automated",
+                    "description": "Why automation matters.",
+                    "manual": {
+                        "title": "Manual Compliance",
+                        "items": [
+                        {
+                            "title": "Spreadsheet Chaos",
+                            "description": "Multiple versions across emails and shared drives"
+                        },
+                        {
+                            "title": "Human Error",
+                            "description": "Missed deadlines and incomplete evidence"
+                        },
+                        {
+                            "title": "Audit Stress",
+                            "description": "Last-minute scrambling to gather documentation"
+                        }
+                        ],
+                        "timeline": {
+                        "label": "Average time",
+                        "value": "Months",
+                        "note": "High effort"
+                        }
+                    },
+                    "automated": {
+                        "title": "Automated Compliance",
+                        "items": [
+                        {
+                            "title": "Single Source of Truth",
+                            "description": "Centralized platform for all compliance activities"
+                        },
+                        {
+                            "title": "Automated Workflows",
+                            "description": "Evidence collection, reminders, and reporting"
+                        },
+                        {
+                            "title": "Always Audit-Ready",
+                            "description": "Real-time compliance status and documentation"
+                        }
+                        ],
+                        "timeline": {
+                        "label": "Average time",
+                        "value": "Weeks",
+                        "note": "Low effort"
+                        }
+                    }
+                    },
+                "certifications": {
+                "title": "Certifications & Trust",
+                "description": "Industry-recognized security standards.",
+                "items": []
+                },
+                "cta": {
+                "title": "Stay Compliant",
+                "description": "Automate compliance across frameworks.",
+                "action": "Get started"
+                }
+            },
+
+            "resources": {
+                "header": {
+                "badge": "RESOURCES",
+                "title": "Learn &",
+                "highlight": "Grow",
+                "description": "Insights, guides, and tools to master GRC."
+                },
+                "sections": {
+                    "blog": {
+                            "title": "Blog",
+                            "description": "Latest insights, updates, and best practices in governance, risk, and compliance.",
+                            "items": [
+                            {
+                                "date": "Jan 12, 2026",
+                                "category": "Compliance",
+                                "title": "How to Streamline GRC Processes in Growing Organizations",
+                                "summary": "Learn practical strategies to simplify governance and compliance without slowing down your teams."
+                            },
+                            {
+                                "date": "Feb 03, 2026",
+                                "category": "Risk Management",
+                                "title": "Top Risk Indicators Every Security Team Should Track",
+                                "summary": "A breakdown of key risk metrics that help organizations anticipate and mitigate threats."
+                            }
+                            ],
+                            "cta": "View all articles"
+                    },
+                    "webinars": {
+                        "title": "Webinars",
+                        "description": "Live and on-demand sessions led by GRC and security experts.",
+                        "items": [
+                        {
+                            "status": "upcoming", 
+                            "date": "Mar 5, 2026",
+                            "title": "Building a Scalable GRC Program from Day One",
+                            "summary": "Best practices for designing a GRC framework that grows with your organization.",
+                            "action": {
+                                "value": "Register now",
+                                "to": "#aquiLink"
+                            }
+                        },
+                        {
+                            "status": "recording",
+                            "date": "Jan 18, 2026",
+                            "title": "SOC 2 Readiness: Common Pitfalls and How to Avoid Them",
+                            "summary": "An expert-led discussion on preparing for SOC 2 audits efficiently.",
+                            "action": {
+                                "value":"Watch recording",
+                                "to": "#aquiLink"
+                            }
+                        }
+                        ],
+                        "cta": "View webinars"
+                    },
+
+                    "documentation": {
+                        "title": "Documentation",
+                        "description": "Technical guides, APIs, and implementation references.",
+                        "items": [
+                        {
+                            "title": "Getting Started Guide",
+                            "description": "Step-by-step instructions to set up your GRC workspace.",
+                            "href": "/docs/getting-started"
+                        },
+                        {
+                            "title": "API Reference",
+                            "description": "Detailed documentation for integrating ShieldGrid with your systems.",
+                            "href": "/docs/api"
+                        }
+                        ],
+                        "cta": "Read documentation"
+                    },
+
+                    "caseStudies": {
+                        "title": "Case Studies",
+                        "description": "Real-world success stories from organizations using ShieldGrid.",
+                        "items": [
+                        {
+                            "company": "FinTrust",
+                            "industry": "Financial Services",
+                            "metric": "40% faster audits",
+                            "summary": "FinTrust reduced audit preparation time by centralizing compliance workflows."
+                        },
+                        {
+                            "company": "HealthCore",
+                            "industry": "Healthcare",
+                            "metric": "60% fewer compliance gaps",
+                            "summary": "HealthCore improved risk visibility and remediation tracking across departments."
+                        }
+                        ],
+                        "cta": "View case studies"
+                    },
+
+                    "tools": {
+                        "title": "Tools",
+                        "description": "Free GRC tools and features that support compliance and remediation workflows.",
+                        "items": [
+                        {
+                            "id": "mobile-app",
+                            "icon": "smartphone",
+                            "title": "Mobile Application",
+                            "description": "Track the status of assessments and remediation projects from anywhere."
+                        },
+                        {
+                            "id": "notifications",
+                            "icon": "bell",
+                            "title": "Notifications and Alerts",
+                            "description": "Real-time alerts on assessment status, tasks, and critical events."
+                        },
+                        {
+                            "id": "risk-dashboard",
+                            "icon": "hammer",
+                            "title": "Risk Dashboard",
+                            "description": "Centralized view of risks, controls, and remediation progress."
+                        }
+                        ],
+                        "cta": "Explore tools"
+                    },
+
+                    "support": {
+                        "title": "Support",
+                        "description": "Get help, guidance, and expert assistance whenever you need it.",
+                        "items": [
+                        {
+                            "title": "Help Center",
+                            "subtitle": "Browse FAQs and self-service articles",
+                            "href": "/support/help-center"
+                        },
+                        {
+                            "title": "Contact Support",
+                            "subtitle": "Reach our support team for personalized assistance",
+                            "href": "/support/contact"
+                        }
+                        ],
+                        "sla": "24/7 support SLA"
+                    }
+                }
+
+                ,
+                "featuredResource": {
+                "badge": "FEATURED",
+                "title": "GRC Starter Guide",
+                "description": "Everything you need to start.",
+                "bullets": [],
+                "actions": {
+                    "primary": "Download",
+                    "secondary": "Learn more"
+                },
+                "meta": {
+                    "label": "Guide",
+                    "pages": "45",
+                    "format": "PDF"
+                }
+                },
+                "newsletter": {
+                "title": "Stay Updated",
+                "description": "Subscribe to our newsletter.",
+                "placeholder": "Enter your email",
+                "button": "Subscribe",
+                "privacyText": "We respect your privacy.",
+                "privacyLink": "Privacy Policy"
+                },
+                "finalCta": {
+                "title": "Ready to Get Started?",
+                "description": "Take control of your GRC today.",
+                "action": "Request a demo"
+                }
+            },
+
+            "pricing": {
+                "header": {
+                    "badge": "PRICING",
+                    "title": "Flexible",
+                    "highlight": "Plans",
+                    "description": "Choose the plan that fits your organization."
+                },
+                "billingToggle": {
+                    "annual": {
+                        "label": "Annual",
+                        "discountLabel": "Save with annual billing"
+                    },
+                    "monthly": {
+                        "label": "Monthly"
+                    }
+                },
+                "plans": {
+                            "essential": {
+                                "badge": "ESSENTIAL",
+                                "name": "Essential",
+                                "description": "For small teams starting their GRC journey.",
+                                "pricing": {
+                                    "monthly": "$599",
+                                    "yearly": "$500",
+                                    "taxes": "Taxes not included",
+                                    "savings": "Save annually"
+                                },
+                                "features": [
+                                    "Up to 5 users",
+                                    "Basic risk assessment",
+                                    "GDPR compliance",
+                                    "Standard support (business hours)",
+                                    "Basic reporting",
+                                    "Core audit management",
+                                    "Document repository (5GB)",
+                                    "Basic compliance templates"
+                                ],
+                                "cta": "Start free trial",
+                                "note": "14-day free trial"
+                            },
+                            "growth": {
+                                "popularBadge": "MOST POPULAR",
+                                "badge": "PROFESSIONAL",
+                                "name": "Growth",
+                                "description": "For growing organizations.",
+                                "pricing": {
+                                    "monthly": "$1099",
+                                    "yearly": "$999",
+                                    "taxes": "Taxes not included",                                 
+                                    "savings": "Save annually"
+                                },
+                                "features": [
+                                    "Up to 15 users",
+                                    "Advanced risk management",
+                                    "SOC 2, ISO 42001 compliance",
+                                    "Priority support (24/5)",
+                                    "Advanced analytics & reporting",
+                                    "Custom workflows",                                    
+                                    "Third-party risk management",
+                                    "Automated evidence collection",
+                                    "Real-time dashboards",
+                                    "Advanced audit management",
+                                    "Document repository (25GB)"
+                                ],
+                                "cta": "Start free trial",
+                                "note": "30-day free trial"
+                            },
+                            "scale": {
+                                "badge": "ENTERPRISE",
+                                "name": "Scale",
+                                "description": "For large organizations.",
+                                "pricing": {
+                                    "customLabel": "Custom pricing",
+                                    "subtitle": "Tailored to your needs",
+                                    "benefits": "Volume discounts available"
+                                },
+                                "features": [
+                                    "Up to 30 users",
+                                    "Enterprise risk management",
+                                    "All compliance frameworks",
+                                    "24/7 dedicated support",
+                                    "Custom integrations",
+                                    "Dedicated CSM & implementation",
+                                    "On-premise deployment option",
+                                    "Custom reporting & analytics",
+                                    "Advanced SSO & SAML",
+                                    "Custom API development",
+                                    "White-label reporting",
+                                    "Dedicated training & onboarding",
+                                    "SLA guarantees (99.99%)",
+                                    "Unlimited document storage"
+                                ],
+                                "cta": "Contact sales",
+                                "note": "Custom demo"
+                            }
+                        },
+                        "comparison": {
+                            "header": {
+                                "title": "Plan Comparison",
+                                "description": "Compare features across plans."
+                            },
+                            "table": {
+                                "columns": {
+                                "feature": "Feature",
+                                "essential": {
+                                    "label": "Essential",
+                                    "price": "$599 / month"
+                                },
+                                "growth": {
+                                    "label": "Growth",
+                                    "price": "$1,099 / month"
+                                },
+                                "scale": {
+                                    "label": "Scale",
+                                    "price": "Custom"
+                                }
+                                },
+                                "rows": [
+                                {
+                                    "feature": "Users Included",
+                                    "essential": "Up to 5",
+                                    "growth": "Up to 15",
+                                    "scale": "Up to 30"
+                                },
+                                {
+                                    "feature": "Risk Management",
+                                    "essential": "Basic risk assessment",
+                                    "growth": "Advanced risk management",
+                                    "scale": "Enterprise risk management"
+                                },
+                                {
+                                    "feature": "Compliance Frameworks",
+                                    "essential": "GDPR",
+                                    "growth": "SOC 2, ISO 42001",
+                                    "scale": "All compliance frameworks"
+                                },
+                                {
+                                    "feature": "Audit Management",
+                                    "essential": "Core audit management",
+                                    "growth": "Advanced audit management",
+                                    "scale": "Enterprise audit management"
+                                },
+                                {
+                                    "feature": "Third-Party Risk Management",
+                                    "essential": "Not included",
+                                    "growth": "Included",
+                                    "scale": "Advanced"
+                                },
+                                {
+                                    "feature": "Reporting & Analytics",
+                                    "essential": "Basic reporting",
+                                    "growth": "Advanced analytics & reporting",
+                                    "scale": "Custom reporting & analytics"
+                                },
+                                {
+                                    "feature": "Dashboards",
+                                    "essential": "Standard",
+                                    "growth": "Real-time dashboards",
+                                    "scale": "Custom dashboards"
+                                },
+                                {
+                                    "feature": "Custom Workflows",
+                                    "essential": "Not included",
+                                    "growth": "Included",
+                                    "scale": "Fully customizable"
+                                },
+                                {
+                                    "feature": "Support",
+                                    "essential": "Standard (business hours)",
+                                    "growth": "Priority support (24/5)",
+                                    "scale": "24/7 dedicated support"
+                                },
+                                {
+                                    "feature": "SLA",
+                                    "essential": "Standard SLA",
+                                    "growth": "Enhanced SLA",
+                                    "scale": "99.99% SLA"
+                                },
+                                {
+                                    "feature": "Single Sign-On (SSO)",
+                                    "essential": "Not included",
+                                    "growth": "Included",
+                                    "scale": "Advanced SSO & SAML"
+                                },
+                                {
+                                    "feature": "Document Storage",
+                                    "essential": "5GB",
+                                    "growth": "25GB",
+                                    "scale": "Unlimited"
+                                },
+                                {
+                                    "feature": "Integrations & API",
+                                    "essential": "Limited",
+                                    "growth": "Standard integrations",
+                                    "scale": "Custom API & integrations"
+                                },
+                                {
+                                    "feature": "Deployment Options",
+                                    "essential": "Cloud",
+                                    "growth": "Cloud",
+                                    "scale": "Cloud & on-premise"
+                                },
+                                {
+                                    "feature": "Training & Onboarding",
+                                    "essential": "Self-service",
+                                    "growth": "Guided onboarding",
+                                    "scale": "Dedicated training & onboarding"
+                                }
+                                ]
+                            }
+                        },
+                        "roi": {
+                            "title": "ROI Calculator",
+                            "description": "Estimate your potential savings based on selected parameters.",
+                            "inputs": {
+                                "employees": {
+                                    "label": "Number of employees",
+                                    "min": 1,
+                                    "max": 10000
+                                },
+                                "frameworks": {
+                                    "label": "Reference frameworks",
+                                    "options": [
+                                        "GDPR",                                        
+                                        "SOC 2",
+                                        "ISO 42001",
+                                        "PCI DSS",                                        
+                                        "NIST CSF"                                        
+                                    ],
+                                    "hoursPerFramework": 120
+                                }
+                            },
+                            "calculation": {
+                                "costPerHour": 75,
+                                "automationSavingsRate": 0.65,
+                                "monthlyPlatformCost": 1200
+                            },
+                            "results": {
+                                "savingsLabel": "Estimated savings",
+                                "roiLabel": "ROI",
+                                "timelineLabel": "ROI Timeline",
+                                "averageRoi": {
+                                    "label": "Average ROI",
+                                    "value": "3x",
+                                    "description": "Based on customer data"
+                                }
+                            }
+                        },
+                        "faq": {
+                            "header": {
+                                "title": "Frequently Asked Questions",
+                                "description": "Common questions about pricing."
+                            },
+                            "items": [
+                                {
+                                    "question": "Can I change plans later?",
+                                    "answer": "Yes, you can upgrade or downgrade your plan at any time. Changes take effect at the start of your next billing cycle."
+                                },
+                                {
+                                    "question": "Is there a free trial?",
+                                    "answer": "Yes! All plans include a free trial (14 days for Essential, 30 days for Growth). No credit card required to start."
+                                },
+                                {
+                                    "question": "What payment methods do you accept?",
+                                    "answer": "We accept all major credit cards, ACH bank transfers, and wire transfers for annual plans."
+                                },
+                                {
+                                    "question": "Do you offer discounts for non-profits?",
+                                    "answer": "Yes, we offer special pricing for registered non-profit organizations and educational institutions."
+                                },
+                                {
+                                    "question": "Is there a setup fee?",
+                                    "answer": "No setup fees for Essential and Growth plans. Enterprise plans may include implementation services."
+                                },
+                                {
+                                    "question": "Can I get a custom quote?",
+                                    "answer": "Absolutely! Contact our sales team for custom pricing based on your specific requirements."
+                                },
+                                {
+                                    "question": "What's your refund policy?",
+                                    "answer": "We offer a 30-day money-back guarantee for annual plans. Monthly plans can be canceled at any time."
+                                },
+                                {
+                                    "question": "Do you offer multi-year discounts?",
+                                    "answer": "Yes, we offer additional discounts for 2-year and 3-year commitments on Enterprise plans."
+                                }
+                            ]
+                        },
+                        "finalCta": {
+                            "title": "Start Your GRC Journey",
+                            "description": "Choose the plan that fits your needs.",
+                            "actions": {
+                                "primary": "Start free trial",
+                                "secondary": "Contact sales"
+                            }
+                        }
+                    }
+        },
+
+        "login": {
+            "title": "Sign in",
+            "subtitle": "Access your GRC control panel",
+            "noAccount": "Don’t have an account?",
+            "getDemo": "Request a demo",
+            "form": {
+                "emailLabel": "Email",
+                "emailPlaceholder": "you@example.com",
+                "passwordLabel": "Password",
+                "passwordPlaceholder": "••••••••",
+                "submit": "Sign in",
+                "submitting": "Signing in...",
+                "errorRequired": "Please fill in all required fields"
+            }
+        },
+
+        "demo": {
+            "badge": "REQUEST A DEMO",
+            "title": "Get a Personalized Demo",
+            "subtitle": "Discover how ShieldGrid365 can transform your GRC program. Our experts will show you a demonstration tailored to your specific needs.",
+
+            "contactTitle": "Contact Our Team",
+            "callLabel": "Toll-free call",
+            "salesEmailLabel": "Sales email",
+            "hoursLabel": "Business hours",
+            "hours": "Monday to Friday: 8:00 AM - 8:00 PM EST",
+            "spanishSupport": "Spanish support available",
+            "internationalNumbers": "International numbers",
+
+            "whatToExpectTitle": "What's Included in Your Demo?",
+            "personalizedDemo": {
+                "title": "Personalized Demo",
+                "description": "Configured according to your industry, company size, and specific GRC needs."
+            },
+            "dedicatedExpert": {
+                "title": "Dedicated GRC Expert",
+                "description": "1:1 session with an industry specialist who understands your challenges."
+            },
+            "caseAnalysis": {
+                "title": "Real Case Analysis",
+                "description": "We show how we solved similar challenges for companies like yours."
+            },
+            "roiEstimate": {
+                "title": "Estimated ROI",
+                "description": "Projection of time, resource savings, and risk reduction."
+            },
+
+            "whyChooseTitle": "Why Choose ShieldGrid365?",
+            "uptime": "Uptime SLA",
+            "responseTime": "Guaranteed response",
+            "companiesTrust": "Companies trust us",
+            "satisfaction": "Customer satisfaction",
+            "certifiedSecurity": "Certified Security",
+            "certifications": "SOC 2 Type II, ISO 27001, HIPAA Compliant",
+
+            "countries": {
+                "spain": "Spain",
+                "mexico": "Mexico",
+                "uk": "UK",
+                "australia": "Australia"
+            },
+            "from": {
+                "firstNameLabel": "First Name",
+                "lastNameLabel": "Last Name",
+                "emailLabel": "Business Email",
+                "companyLabel": "Company",
+                "phoneLabel": "Phone",
+                "countryLabel": "Country",
+                "jobTitleLabel": "Job Title / Position",
+                "companySizeLabel": "Company Size",
+                "industryLabel": "Industry",
+                "useCaseLabel": "Primary Use Case",
+                "messageLabel": "Additional Message (optional)",
+                "termsLabel": "I agree to receive communications from ShieldGrid365 and understand that my personal data will be processed in accordance with the",
+
+                "firstNamePlaceholder": "Your first name",
+                "lastNamePlaceholder": "Your last name",
+                "emailPlaceholder": "example@company.com",
+                "companyPlaceholder": "Your company name",
+                "phonePlaceholder": "+1 (555) 123-4567",
+                "jobTitlePlaceholder": "Select position",
+                "companySizePlaceholder": "Select size",
+                "industryPlaceholder": "Select industry",
+                "useCasePlaceholder": "Select use case",
+                "messagePlaceholder": "Describe your current situation, specific challenges, or any information that helps us better prepare your demo...",
+
+                "termsText": "I agree to receive communications from ShieldGrid365 and understand that my personal data will be processed in accordance with the",
+                "privacyPolicy": "Privacy Policy",
+                "submitButton": "Request Personalized Demo",
+                "submittingButton": "Sending request...",
+                "successMessage": "Request sent successfully! We'll contact you within 24 hours.",
+                "errorMessage": "Error sending request. Please try again.",
+                "requiredField": "Please complete all required fields",
+                "invalidEmail": "Invalid email",
+
+                "responseGuarantee": " Guaranteed response in 24 hours",
+                "teamContact": "Our team will contact you to schedule a personalized demonstration according to your needs.",
+                "secureConnection": "Secure connection • Your data is protected"
+            }
+        }
+    },
+
+
+
+    "footer":{
+        "description": "Enterprise-grade Governance, Risk, and Compliance platform trusted by Fortune 500 companies worldwide.",
+        
+        "trustBadges": [
+        "SOC 2 Type II Certified",
+        "ISO 27001:2022",
+        "GDPR Compliant"
+        ],
+
+        "platform": {
+        "title": "Platform",
+        "links": ["Features", "Pricing", "Integrations", "API Docs", "Status", "Release Notes"]
+        },
+
+        "solutions": {
+        "title": "Solutions",
+        "links": [
+            "Banking & Finance",
+            "Healthcare",
+            "Technology & SaaS",
+            "Retail & E-commerce",
+            "Manufacturing",
+            "Government"
+        ]
+        },
+
+        "contact": {
+        "title": "Contact",
+        "email": "sales@shieldgrid365.com",
+        "phone": "+1 (800) 555-1234",
+        "address": "123 Security Boulevard\nSan Francisco, CA 94107",
+        "newsletter": {
+            "title": "Stay Updated",
+            "placeholder": "Your work email",
+            "button": "Join"
+        }
+        },
+
+        "legal": ["Privacy Policy", "Terms of Service", "Cookie Policy", "Security", "Compliance"],
+        "socials": ["Twitter", "LinkedIn", "GitHub", "Blog"],
+        "languageLabel": "EN"
+    }
+
+
+}

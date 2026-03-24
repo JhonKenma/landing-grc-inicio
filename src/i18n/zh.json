@@ -1,0 +1,607 @@
+{
+    "menu": {
+        "product": "产品",
+        "overview": "产品概述",
+        "risk": "风险管理",
+        "compliance-automation": "合规自动化",
+        "audit": "审计管理",
+        "integrations": "集成",
+
+        "solutions": "行业解决方案",
+        "banking": "银行与金融",
+        "healthcare": "医疗保健",
+        "technology": "技术与SaaS",
+        "retail": "零售与电子商务",
+        "manufacturing": "制造业",
+
+        "compliance": "合规认证",
+        "soc2": "SOC 2 Type II",
+        "iso27001": "ISO 27001",
+        "gdpr": "GDPR合规",
+        "hipaa": "HIPAA合规",
+        "pci": "PCI DSS",
+
+        "resources": "资源",
+        "blog": "博客",
+        "case-studies": "客户案例",
+        "webinars": "网络研讨会",
+        "documentation": "文档",
+        "tools": "工具",
+
+        "pricing": "定价",
+        "essential": "基础版",
+        "growth": "成长版",
+        "enterprise": "企业版"
+    },
+
+    "menuHeader": {
+        "login": "登录",
+        "demo": "预约演示"
+    },
+
+    "pages": {
+        "welcome": {
+            "hero": {
+                "title": "企业级GRC平台",
+                "highlight": "为规模化而构建",
+                "description": "一个统一平台，全面管理您组织的治理、风险与合规。",
+                "cta": {
+                    "login": "登录",
+                    "demo": "申请演示"
+                }
+            },
+
+            "productOverview": {
+                "header": {
+                    "badge": "核心平台",
+                    "title": "企业级GRC",
+                    "highlight": "所需的一切",
+                    "description": "一个简化治理、风险管理和合规的统一平台。"
+                },
+                "features": {
+                    "risk": {
+                        "title": "风险管理",
+                        "description": "实时识别、评估和缓解风险。",
+                        "bullets": [],
+                        "cta": "探索风险功能"
+                    },
+                    "compliance": {
+                        "title": "合规自动化",
+                        "description": "跨多个框架和法规自动化合规工作。",
+                        "bullets": [],
+                        "cta": "查看合规功能"
+                    },
+                    "audit": {
+                        "title": "审计管理",
+                        "description": "高效简化和外部审计流程。",
+                        "bullets": [],
+                        "cta": "查看审计工具"
+                    }
+                },
+                "dashboard": {
+                    "title": "统一仪表板",
+                    "description": "实时掌握您的GRC态势概览。",
+                    "stats": {
+                        "uptime": {
+                            "value": "99.9%",
+                            "label": "平台可用性"
+                        },
+                        "resolution": {
+                            "value": "<24h",
+                            "label": "平均解决时间"
+                        },
+                        "auditReduction": {
+                            "value": "85%",
+                            "label": "审计时间减少"
+                        },
+                        "riskSpeed": {
+                            "value": "60%",
+                            "label": "风险评估提速"
+                        }
+                    }
+                }
+            },
+
+            "solutions": {
+                "header": {
+                    "badge": "解决方案",
+                    "title": "面向",
+                    "highlight": "各行各业",
+                    "description": "针对不同行业和业务需求量身定制的GRC解决方案。"
+                },
+                "industries": {
+                    "banking": {
+                        "tag": "金融",
+                        "title": "银行与金融",
+                        "description": "管理金融风险和监管合规。",
+                        "bullets": [],
+                        "successMetric": {
+                            "label": "风险降低",
+                            "value": "40%"
+                        }
+                    },
+                    "healthcare": {
+                        "tag": "医疗",
+                        "title": "医疗保健",
+                        "description": "确保患者数据安全与合规。",
+                        "bullets": [],
+                        "successMetric": {
+                            "label": "合规覆盖率",
+                            "value": "100%"
+                        }
+                    },
+                    "technology": {
+                        "tag": "科技",
+                        "title": "技术与SaaS",
+                        "description": "伴随高速发展的科技团队扩展合规能力。",
+                        "bullets": [],
+                        "successMetric": {
+                            "label": "部署速度",
+                            "value": "提升3倍"
+                        }
+                    },
+                    "retail": {
+                        "tag": "零售",
+                        "title": "零售与电子商务",
+                        "description": "保护客户数据和交易安全。",
+                        "bullets": [],
+                        "successMetric": {
+                            "label": "事件减少",
+                            "value": "50%"
+                        }
+                    },
+                    "manufacturing": {
+                        "tag": "制造",
+                        "title": "制造业",
+                        "description": "管控运营和供应链风险。",
+                        "bullets": [],
+                        "successMetric": {
+                            "label": "审计效率",
+                            "value": "提升2倍"
+                        }
+                    },
+                    "custom": {
+                        "tag": "定制",
+                        "title": "定制解决方案",
+                        "description": "针对独特需求定制的GRC方案。",
+                        "bullets": [],
+                        "cta": "咨询专家"
+                    }
+                },
+                "results": {
+                    "title": "已验证的成效",
+                    "description": "跨行业可衡量的影响。",
+                    "items": []
+                },
+                "cta": {
+                    "title": "观看实际演示",
+                    "description": "了解我们的平台如何适应您的业务。",
+                    "action": "申请演示"
+                }
+            },
+
+            "compliance": {
+                "header": {
+                    "badge": "合规",
+                    "title": "全球",
+                    "highlight": "合规覆盖",
+                    "description": "支持全球主要监管框架。"
+                },
+                "globalCoverage": {
+                    "title": "全球标准",
+                    "description": "全面的合规覆盖。",
+                    "primaryFrameworks": {
+                        "gdpr": {
+                            "region": "欧盟",
+                            "tag": "GDPR",
+                            "title": "通用数据保护条例",
+                            "description": "数据保护与隐私法规。",
+                            "coverage": "完全覆盖"
+                        },
+                        "hipaa": {
+                            "region": "美国",
+                            "tag": "HIPAA",
+                            "title": "健康保险流通与责任法案",
+                            "description": "医疗数据保护。",
+                            "coverage": "完全覆盖"
+                        },
+                        "soc2": {
+                            "region": "美国",
+                            "tag": "SOC 2",
+                            "title": "服务组织控制",
+                            "description": "安全性与可用性控制。",
+                            "coverage": "完全覆盖"
+                        },
+                        "iso27001": {
+                            "region": "全球",
+                            "tag": "ISO 27001",
+                            "title": "信息安全管理体系",
+                            "description": "ISMS认证。",
+                            "coverage": "完全覆盖"
+                        }
+                    },
+                    "secondaryFrameworks": []
+                },
+                "lifecycle": {
+                    "title": "合规生命周期",
+                    "description": "从评估到持续监控。",
+                    "steps": []
+                },
+                "comparison": {
+                    "title": "手动 vs 自动化",
+                    "description": "自动化为何重要。",
+                    "manual": {
+                        "title": "手动合规",
+                        "items": [],
+                        "timeline": {
+                            "label": "平均耗时",
+                            "value": "数月",
+                            "note": "高投入"
+                        }
+                    },
+                    "automated": {
+                        "title": "自动化合规",
+                        "items": [],
+                        "timeline": {
+                            "label": "平均耗时",
+                            "value": "数周",
+                            "note": "低投入"
+                        }
+                    }
+                },
+                "certifications": {
+                    "title": "认证与信任",
+                    "description": "行业认可的安全标准。",
+                    "items": []
+                },
+                "cta": {
+                    "title": "保持合规",
+                    "description": "跨框架自动化合规工作。",
+                    "action": "立即开始"
+                }
+            },
+
+            "resources": {
+                "header": {
+                    "badge": "资源",
+                    "title": "学习与",
+                    "highlight": "成长",
+                    "description": "掌握GRC所需的洞察、指南和工具。"
+                },
+                "sections": {
+                    "blog": {
+                        "title": "博客",
+                        "description": "最新洞察与最佳实践。",
+                        "items": [],
+                        "cta": "查看所有文章"
+                    },
+                    "webinars": {
+                        "title": "网络研讨会",
+                        "description": "直播与点播课程。",
+                        "items": [],
+                        "cta": "查看网络研讨会"
+                    },
+                    "documentation": {
+                        "title": "文档",
+                        "description": "技术指南与参考资料。",
+                        "items": [],
+                        "cta": "阅读文档"
+                    },
+                    "caseStudies": {
+                        "title": "客户案例",
+                        "description": "真实的客户成功故事。",
+                        "items": [],
+                        "cta": "查看客户案例"
+                    },
+                    "tools": {
+                        "title": "工具",
+                        "description": "免费的GRC工具和模板。",
+                        "items": [],
+                        "cta": "探索工具"
+                    },
+                    "support": {
+                        "title": "支持",
+                        "description": "随时提供帮助。",
+                        "items": [],
+                        "sla": "7×24小时支持SLA"
+                    }
+                },
+                "featuredResource": {
+                    "badge": "精选推荐",
+                    "title": "GRC入门指南",
+                    "description": "开始所需的一切。",
+                    "bullets": [],
+                    "actions": {
+                        "primary": "下载",
+                        "secondary": "了解更多"
+                    },
+                    "meta": {
+                        "label": "指南",
+                        "pages": "45页",
+                        "format": "PDF"
+                    }
+                },
+                "newsletter": {
+                    "title": "保持更新",
+                    "description": "订阅我们的新闻通讯。",
+                    "placeholder": "输入您的邮箱",
+                    "button": "订阅",
+                    "privacyText": "我们尊重您的隐私。",
+                    "privacyLink": "隐私政策"
+                },
+                "finalCta": {
+                    "title": "准备开始了吗？",
+                    "description": "立即掌控您的GRC。",
+                    "action": "申请演示"
+                }
+            },
+
+            "pricing": {
+                "header": {
+                    "badge": "定价",
+                    "title": "灵活的",
+                    "highlight": "方案",
+                    "description": "选择适合您组织的方案。"
+                },
+                "billingToggle": {
+                    "annual": {
+                        "label": "年付",
+                        "discountLabel": "年付节省更多"
+                    },
+                    "monthly": {
+                        "label": "月付"
+                    }
+                },
+                "plans": {
+                    "essential": {
+                        "badge": "基础版",
+                        "name": "基础版",
+                        "description": "适合刚开启GRC之旅的小型团队。",
+                        "pricing": {
+                            "monthly": "$499",
+                            "yearly": "$399",
+                            "savings": "年付节省"
+                        },
+                        "features": [],
+                        "cta": "开始免费试用",
+                        "note": "14天免费试用"
+                    },
+                    "growth": {
+                        "popularBadge": "最受欢迎",
+                        "badge": "专业版",
+                        "name": "成长版",
+                        "description": "适合成长中的组织。",
+                        "pricing": {
+                            "monthly": "$1,299",
+                            "yearly": "$1,039",
+                            "savings": "年付节省"
+                        },
+                        "features": [],
+                        "cta": "开始免费试用",
+                        "note": "30天免费试用"
+                    },
+                    "scale": {
+                        "badge": "企业版",
+                        "name": "规模版",
+                        "description": "适合大型组织。",
+                        "pricing": {
+                            "customLabel": "定制价格",
+                            "subtitle": "根据您的需求量身定制",
+                            "benefits": "提供批量折扣"
+                        },
+                        "features": [],
+                        "cta": "联系销售",
+                        "note": "定制演示"
+                    }
+                },
+                "comparison": {
+                    "header": {
+                        "title": "方案对比",
+                        "description": "跨方案功能对比。"
+                    },
+                    "table": {
+                        "columns": {
+                            "feature": "功能",
+                            "essential": {
+                                "label": "基础版",
+                                "price": "$499"
+                            },
+                            "growth": {
+                                "label": "成长版",
+                                "price": "$1,299"
+                            },
+                            "scale": {
+                                "label": "规模版",
+                                "price": "定制"
+                            }
+                        },
+                        "rows": []
+                    }
+                },
+                "roi": {
+                    "title": "投资回报率计算器",
+                    "description": "估算您的潜在节省。",
+                    "inputs": {
+                        "employees": {
+                            "label": "员工人数",
+                            "min": 1,
+                            "max": 10000
+                        },
+                        "frameworks": {
+                            "label": "合规框架",
+                            "options": []
+                        }
+                    },
+                    "results": {
+                        "savingsLabel": "预估节省",
+                        "roiLabel": "投资回报率",
+                        "averageRoi": {
+                            "label": "平均投资回报率",
+                            "value": "3倍",
+                            "description": "基于客户数据"
+                        }
+                    }
+                },
+                "faq": {
+                    "header": {
+                        "title": "常见问题",
+                        "description": "关于定价的常见问题。"
+                    },
+                    "items": []
+                },
+                "finalCta": {
+                    "title": "开启您的GRC之旅",
+                    "description": "选择适合您需求的方案。",
+                    "actions": {
+                        "primary": "开始免费试用",
+                        "secondary": "联系销售"
+                    }
+                }
+            }
+        },
+
+        "login": {
+            "title": "登录",
+            "subtitle": "访问您的GRC控制面板",
+            "noAccount": "还没有账户？",
+            "getDemo": "申请演示",
+            "form": {
+                "emailLabel": "电子邮箱",
+                "emailPlaceholder": "you@example.com",
+                "passwordLabel": "密码",
+                "passwordPlaceholder": "••••••••",
+                "submit": "登录",
+                "submitting": "正在登录...",
+                "errorRequired": "请填写所有必填字段"
+            }
+        },
+
+        "demo": {
+            "badge": "申请演示",
+            "title": "获取个性化演示",
+            "subtitle": "了解ShieldGrid365如何改变您的GRC计划。我们的专家将为您展示针对您特定需求的个性化演示。",
+
+            "contactTitle": "联系我们的团队",
+            "callLabel": "免费电话",
+            "salesEmailLabel": "销售邮箱",
+            "hoursLabel": "工作时间",
+            "hours": "周一至周五：上午8:00 - 下午8:00 (美国东部时间)",
+            "spanishSupport": "提供西班牙语支持",
+            "internationalNumbers": "国际号码",
+
+            "whatToExpectTitle": "您的演示包含什么？",
+            "personalizedDemo": {
+                "title": "个性化演示",
+                "description": "根据您的行业、公司规模和具体GRC需求进行配置。"
+            },
+            "dedicatedExpert": {
+                "title": "专属GRC专家",
+                "description": "与理解您挑战的行业专家进行1对1会议。"
+            },
+            "caseAnalysis": {
+                "title": "真实案例分析",
+                "description": "展示我们如何为与您类似的公司解决类似挑战。"
+            },
+            "roiEstimate": {
+                "title": "预估投资回报率",
+                "description": "时间、资源节省和风险降低的预测。"
+            },
+
+            "whyChooseTitle": "为何选择ShieldGrid365？",
+            "uptime": "可用性SLA",
+            "responseTime": "响应时间保证",
+            "companiesTrust": "企业信任我们",
+            "satisfaction": "客户满意度",
+            "certifiedSecurity": "认证安全",
+            "certifications": "SOC 2 Type II, ISO 27001, HIPAA合规",
+
+            "countries": {
+                "spain": "西班牙",
+                "mexico": "墨西哥",
+                "uk": "英国",
+                "australia": "澳大利亚"
+            },
+            "from": {
+                "firstNameLabel": "名字",
+                "lastNameLabel": "姓氏",
+                "emailLabel": "工作邮箱",
+                "companyLabel": "公司",
+                "phoneLabel": "电话",
+                "countryLabel": "国家/地区",
+                "jobTitleLabel": "职位",
+                "companySizeLabel": "公司规模",
+                "industryLabel": "行业",
+                "useCaseLabel": "主要用例",
+                "messageLabel": "附加信息 (可选)",
+                "termsLabel": "我同意接收ShieldGrid365的通讯，并理解我的个人数据将根据以下条款处理：",
+
+                "firstNamePlaceholder": "请输入您的名字",
+                "lastNamePlaceholder": "请输入您的姓氏",
+                "emailPlaceholder": "example@company.com",
+                "companyPlaceholder": "请输入您的公司名称",
+                "phonePlaceholder": "+1 (555) 123-4567",
+                "jobTitlePlaceholder": "请选择职位",
+                "companySizePlaceholder": "请选择规模",
+                "industryPlaceholder": "请选择行业",
+                "useCasePlaceholder": "请选择用例",
+                "messagePlaceholder": "请描述您当前的情况、具体挑战或任何有助于我们更好地为您准备演示的信息...",
+
+                "termsText": "我同意接收ShieldGrid365的通讯，并理解我的个人数据将根据",
+                "privacyPolicy": "隐私政策",
+                "submitButton": "申请个性化演示",
+                "submittingButton": "正在提交请求...",
+                "successMessage": "请求发送成功！我们将在24小时内与您联系。",
+                "errorMessage": "请求发送失败，请重试。",
+                "requiredField": "请完成所有必填字段",
+                "invalidEmail": "邮箱格式无效",
+
+                "responseGuarantee": " 保证24小时内响应",
+                "teamContact": "我们的团队将与您联系，根据您的需求安排个性化演示。",
+                "secureConnection": "安全连接 • 您的数据受保护"
+            }
+        }
+    },
+
+    "footer": {
+        "description": "全球《财富》500强公司信赖的企业级治理、风险与合规平台。",
+
+        "trustBadges": [
+            "SOC 2 Type II 认证",
+            "ISO 27001:2022",
+            "GDPR合规"
+        ],
+
+        "platform": {
+            "title": "平台",
+            "links": ["功能", "定价", "集成", "API文档", "状态", "版本说明"]
+        },
+
+        "solutions": {
+            "title": "解决方案",
+            "links": [
+                "银行与金融",
+                "医疗保健",
+                "技术与SaaS",
+                "零售与电子商务",
+                "制造业",
+                "政府"
+            ]
+        },
+
+        "contact": {
+            "title": "联系我们",
+            "email": "sales@shieldgrid365.com",
+            "phone": "+1 (800) 555-1234",
+            "address": "123 Security Boulevard\n旧金山, CA 94107",
+            "newsletter": {
+                "title": "保持更新",
+                "placeholder": "您的工作邮箱",
+                "button": "订阅"
+            }
+        },
+
+        "legal": ["隐私政策", "服务条款", "Cookie政策", "安全", "合规"],
+        "socials": ["Twitter", "LinkedIn", "GitHub", "博客"],
+        "languageLabel": "中文"
+    }
+}

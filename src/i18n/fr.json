@@ -1,0 +1,607 @@
+{
+    "menu": {
+        "product": "Produit",
+        "overview": "Aperçu",
+        "risk": "Gestion des Risques",
+        "compliance-automation": "Automatisation de la Conformité",
+        "audit": "Gestion des Audits",
+        "integrations": "Intégrations",
+
+        "solutions": "Solutions",
+        "banking": "Banque et Finance",
+        "healthcare": "Santé",
+        "technology": "Technologie et SaaS",
+        "retail": "Commerce et E-commerce",
+        "manufacturing": "Industrie Manufacturière",
+
+        "compliance": "Conformité",
+        "soc2": "SOC 2 Type II",
+        "iso27001": "ISO 27001",
+        "gdpr": "Conforme au RGPD",
+        "hipaa": "Conforme à la HIPAA",
+        "pci": "PCI DSS",
+
+        "resources": "Ressources",
+        "blog": "Blog",
+        "case-studies": "Études de Cas",
+        "webinars": "Webinaires",
+        "documentation": "Documentation",
+        "tools": "Outils",
+
+        "pricing": "Tarification",
+        "essential": "Essentiel",
+        "growth": "Croissance",
+        "enterprise": "Entreprise"
+    },
+
+    "menuHeader": {
+        "login": "Connexion",
+        "demo": "Démo"
+    },
+
+    "pages": {
+        "welcome": {
+            "hero": {
+                "title": "Plateforme GRC d'Entreprise",
+                "highlight": "Conçue pour évoluer",
+                "description": "Une plateforme unifiée pour gérer la gouvernance, les risques et la conformité dans toute votre organisation.",
+                "cta": {
+                    "login": "Se connecter",
+                    "demo": "Demander une démo"
+                }
+            },
+
+            "productOverview": {
+                "header": {
+                    "badge": "LA PLATEFORME",
+                    "title": "Tout ce dont vous avez besoin pour la",
+                    "highlight": "GRC d'Entreprise",
+                    "description": "Une plateforme unifiée qui simplifie la gouvernance, la gestion des risques et la conformité."
+                },
+                "features": {
+                    "risk": {
+                        "title": "Gestion des Risques",
+                        "description": "Identifiez, évaluez et atténuez les risques en temps réel.",
+                        "bullets": [],
+                        "cta": "Explorer les fonctionnalités risque"
+                    },
+                    "compliance": {
+                        "title": "Automatisation de la Conformité",
+                        "description": "Automatisez la conformité sur plusieurs cadres réglementaires.",
+                        "bullets": [],
+                        "cta": "Voir les fonctionnalités conformité"
+                    },
+                    "audit": {
+                        "title": "Gestion des Audits",
+                        "description": "Rationalisez efficacement les audits internes et externes.",
+                        "bullets": [],
+                        "cta": "Voir les outils d'audit"
+                    }
+                },
+                "dashboard": {
+                    "title": "Tableau de Bord Unifié",
+                    "description": "Obtenez une vue d'ensemble en temps réel de votre posture GRC.",
+                    "stats": {
+                        "uptime": {
+                            "value": "99.9%",
+                            "label": "Disponibilité de la plateforme"
+                        },
+                        "resolution": {
+                            "value": "<24h",
+                            "label": "Temps moyen de résolution"
+                        },
+                        "auditReduction": {
+                            "value": "85%",
+                            "label": "Réduction du temps d'audit"
+                        },
+                        "riskSpeed": {
+                            "value": "60%",
+                            "label": "Évaluation des risques plus rapide"
+                        }
+                    }
+                }
+            },
+
+            "solutions": {
+                "header": {
+                    "badge": "SOLUTIONS",
+                    "title": "Solutions pour",
+                    "highlight": "Tous les Secteurs",
+                    "description": "Solutions GRC adaptées aux différents secteurs d'activité et besoins commerciaux."
+                },
+                "industries": {
+                    "banking": {
+                        "tag": "FINANCE",
+                        "title": "Banque et Finance",
+                        "description": "Gérez les risques financiers et la conformité réglementaire.",
+                        "bullets": [],
+                        "successMetric": {
+                            "label": "Réduction des risques",
+                            "value": "40%"
+                        }
+                    },
+                    "healthcare": {
+                        "tag": "SANTÉ",
+                        "title": "Santé",
+                        "description": "Garantissez la sécurité des données patients et la conformité.",
+                        "bullets": [],
+                        "successMetric": {
+                            "label": "Couverture de conformité",
+                            "value": "100%"
+                        }
+                    },
+                    "technology": {
+                        "tag": "TECH",
+                        "title": "Technologie et SaaS",
+                        "description": "Évoluez la conformité avec des équipes tech en forte croissance.",
+                        "bullets": [],
+                        "successMetric": {
+                            "label": "Vitesse de déploiement",
+                            "value": "3x plus rapide"
+                        }
+                    },
+                    "retail": {
+                        "tag": "COMMERCE",
+                        "title": "Commerce et E-commerce",
+                        "description": "Protégez les données clients et les transactions.",
+                        "bullets": [],
+                        "successMetric": {
+                            "label": "Réduction des incidents",
+                            "value": "50%"
+                        }
+                    },
+                    "manufacturing": {
+                        "tag": "INDUSTRIE",
+                        "title": "Industrie Manufacturière",
+                        "description": "Contrôlez les risques opérationnels et de la chaîne d'approvisionnement.",
+                        "bullets": [],
+                        "successMetric": {
+                            "label": "Efficacité d'audit",
+                            "value": "2x"
+                        }
+                    },
+                    "custom": {
+                        "tag": "SUR MESURE",
+                        "title": "Solutions Sur Mesure",
+                        "description": "Programmes GRC personnalisés pour des besoins uniques.",
+                        "bullets": [],
+                        "cta": "Parler à un expert"
+                    }
+                },
+                "results": {
+                    "title": "Résultats Avérés",
+                    "description": "Impact mesurable à travers les secteurs.",
+                    "items": []
+                },
+                "cta": {
+                    "title": "Voir en Action",
+                    "description": "Découvrez comment notre plateforme s'adapte à votre entreprise.",
+                    "action": "Demander une démo"
+                }
+            },
+
+            "compliance": {
+                "header": {
+                    "badge": "CONFORMITÉ",
+                    "title": "Couverture de Conformité",
+                    "highlight": "Mondiale",
+                    "description": "Prise en charge des principaux cadres réglementaires mondiaux."
+                },
+                "globalCoverage": {
+                    "title": "Normes Mondiales",
+                    "description": "Couverture de conformité complète.",
+                    "primaryFrameworks": {
+                        "gdpr": {
+                            "region": "UE",
+                            "tag": "RGPD",
+                            "title": "Règlement Général sur la Protection des Données",
+                            "description": "Règlement sur la protection des données et la vie privée.",
+                            "coverage": "Complète"
+                        },
+                        "hipaa": {
+                            "region": "États-Unis",
+                            "tag": "HIPAA",
+                            "title": "Loi sur la Portabilité et la Responsabilité de l'Assurance Maladie",
+                            "description": "Protection des données de santé.",
+                            "coverage": "Complète"
+                        },
+                        "soc2": {
+                            "region": "États-Unis",
+                            "tag": "SOC 2",
+                            "title": "Contrôles des Organisations de Service",
+                            "description": "Contrôles de sécurité et de disponibilité.",
+                            "coverage": "Complète"
+                        },
+                        "iso27001": {
+                            "region": "Monde",
+                            "tag": "ISO 27001",
+                            "title": "Management de la Sécurité de l'Information",
+                            "description": "Certification SGSI.",
+                            "coverage": "Complète"
+                        }
+                    },
+                    "secondaryFrameworks": []
+                },
+                "lifecycle": {
+                    "title": "Cycle de Vie de la Conformité",
+                    "description": "De l'évaluation au suivi continu.",
+                    "steps": []
+                },
+                "comparison": {
+                    "title": "Manuel vs Automatisé",
+                    "description": "Pourquoi l'automatisation est cruciale.",
+                    "manual": {
+                        "title": "Conformité Manuel",
+                        "items": [],
+                        "timeline": {
+                            "label": "Temps moyen",
+                            "value": "Mois",
+                            "note": "Effort élevé"
+                        }
+                    },
+                    "automated": {
+                        "title": "Conformité Automatisée",
+                        "items": [],
+                        "timeline": {
+                            "label": "Temps moyen",
+                            "value": "Semaines",
+                            "note": "Effort réduit"
+                        }
+                    }
+                },
+                "certifications": {
+                    "title": "Certifications et Confiance",
+                    "description": "Normes de sécurité reconnues par l'industrie.",
+                    "items": []
+                },
+                "cta": {
+                    "title": "Restez Conforme",
+                    "description": "Automatisez la conformité sur tous les cadres.",
+                    "action": "Commencer"
+                }
+            },
+
+            "resources": {
+                "header": {
+                    "badge": "RESSOURCES",
+                    "title": "Apprenez et",
+                    "highlight": "Grandissez",
+                    "description": "Insights, guides et outils pour maîtriser la GRC."
+                },
+                "sections": {
+                    "blog": {
+                        "title": "Blog",
+                        "description": "Derniers insights et meilleures pratiques.",
+                        "items": [],
+                        "cta": "Voir tous les articles"
+                    },
+                    "webinars": {
+                        "title": "Webinaires",
+                        "description": "Sessions en direct et à la demande.",
+                        "items": [],
+                        "cta": "Voir les webinaires"
+                    },
+                    "documentation": {
+                        "title": "Documentation",
+                        "description": "Guides techniques et références.",
+                        "items": [],
+                        "cta": "Lire la documentation"
+                    },
+                    "caseStudies": {
+                        "title": "Études de Cas",
+                        "description": "Histoires réelles de réussite clients.",
+                        "items": [],
+                        "cta": "Voir les études de cas"
+                    },
+                    "tools": {
+                        "title": "Outils",
+                        "description": "Outils et modèles GRC gratuits.",
+                        "items": [],
+                        "cta": "Explorer les outils"
+                    },
+                    "support": {
+                        "title": "Support",
+                        "description": "Aide quand vous en avez besoin.",
+                        "items": [],
+                        "sla": "SLA de support 24/7"
+                    }
+                },
+                "featuredResource": {
+                    "badge": "À LA UNE",
+                    "title": "Guide de Démarrage GRC",
+                    "description": "Tout ce dont vous avez besoin pour commencer.",
+                    "bullets": [],
+                    "actions": {
+                        "primary": "Télécharger",
+                        "secondary": "En savoir plus"
+                    },
+                    "meta": {
+                        "label": "Guide",
+                        "pages": "45",
+                        "format": "PDF"
+                    }
+                },
+                "newsletter": {
+                    "title": "Restez Informé",
+                    "description": "Abonnez-vous à notre newsletter.",
+                    "placeholder": "Entrez votre email",
+                    "button": "S'abonner",
+                    "privacyText": "Nous respectons votre vie privée.",
+                    "privacyLink": "Politique de Confidentialité"
+                },
+                "finalCta": {
+                    "title": "Prêt à Commencer ?",
+                    "description": "Prenez le contrôle de votre GRC dès aujourd'hui.",
+                    "action": "Demander une démo"
+                }
+            },
+
+            "pricing": {
+                "header": {
+                    "badge": "TARIFICATION",
+                    "title": "Forfaits",
+                    "highlight": "Flexibles",
+                    "description": "Choisissez le forfait adapté à votre organisation."
+                },
+                "billingToggle": {
+                    "annual": {
+                        "label": "Annuel",
+                        "discountLabel": "Économisez avec un abonnement annuel"
+                    },
+                    "monthly": {
+                        "label": "Mensuel"
+                    }
+                },
+                "plans": {
+                    "essential": {
+                        "badge": "ESSENTIEL",
+                        "name": "Essentiel",
+                        "description": "Pour les petites équipes débutant leur parcours GRC.",
+                        "pricing": {
+                            "monthly": "$499",
+                            "yearly": "$399",
+                            "savings": "Économisez annuellement"
+                        },
+                        "features": [],
+                        "cta": "Commencer l'essai gratuit",
+                        "note": "Essai gratuit de 14 jours"
+                    },
+                    "growth": {
+                        "popularBadge": "LE PLUS POPULAIRE",
+                        "badge": "PROFESSIONNEL",
+                        "name": "Croissance",
+                        "description": "Pour les organisations en croissance.",
+                        "pricing": {
+                            "monthly": "$1,299",
+                            "yearly": "$1,039",
+                            "savings": "Économisez annuellement"
+                        },
+                        "features": [],
+                        "cta": "Commencer l'essai gratuit",
+                        "note": "Essai gratuit de 30 jours"
+                    },
+                    "scale": {
+                        "badge": "ENTREPRISE",
+                        "name": "Échelle",
+                        "description": "Pour les grandes organisations.",
+                        "pricing": {
+                            "customLabel": "Tarification personnalisée",
+                            "subtitle": "Adapté à vos besoins",
+                            "benefits": "Remises volume disponibles"
+                        },
+                        "features": [],
+                        "cta": "Contacter le service commercial",
+                        "note": "Démo personnalisée"
+                    }
+                },
+                "comparison": {
+                    "header": {
+                        "title": "Comparatif des Forfaits",
+                        "description": "Comparez les fonctionnalités entre les forfaits."
+                    },
+                    "table": {
+                        "columns": {
+                            "feature": "Fonctionnalité",
+                            "essential": {
+                                "label": "Essentiel",
+                                "price": "$499"
+                            },
+                            "growth": {
+                                "label": "Croissance",
+                                "price": "$1,299"
+                            },
+                            "scale": {
+                                "label": "Échelle",
+                                "price": "Personnalisé"
+                            }
+                        },
+                        "rows": []
+                    }
+                },
+                "roi": {
+                    "title": "Calculateur de ROI",
+                    "description": "Estimez vos économies potentielles.",
+                    "inputs": {
+                        "employees": {
+                            "label": "Nombre d'employés",
+                            "min": 1,
+                            "max": 10000
+                        },
+                        "frameworks": {
+                            "label": "Cadres réglementaires",
+                            "options": []
+                        }
+                    },
+                    "results": {
+                        "savingsLabel": "Économies estimées",
+                        "roiLabel": "Retour sur investissement",
+                        "averageRoi": {
+                            "label": "ROI moyen",
+                            "value": "3x",
+                            "description": "Sur la base des données clients"
+                        }
+                    }
+                },
+                "faq": {
+                    "header": {
+                        "title": "Questions Fréquentes",
+                        "description": "Questions courantes sur la tarification."
+                    },
+                    "items": []
+                },
+                "finalCta": {
+                    "title": "Commencez Votre Parcours GRC",
+                    "description": "Choisissez le forfait adapté à vos besoins.",
+                    "actions": {
+                        "primary": "Commencer l'essai gratuit",
+                        "secondary": "Contacter le service commercial"
+                    }
+                }
+            }
+        },
+
+        "login": {
+            "title": "Se Connecter",
+            "subtitle": "Accédez à votre tableau de bord GRC",
+            "noAccount": "Vous n'avez pas de compte ?",
+            "getDemo": "Demander une démo",
+            "form": {
+                "emailLabel": "Adresse Email",
+                "emailPlaceholder": "vous@exemple.com",
+                "passwordLabel": "Mot de passe",
+                "passwordPlaceholder": "••••••••",
+                "submit": "Se Connecter",
+                "submitting": "Connexion en cours...",
+                "errorRequired": "Veuillez remplir tous les champs obligatoires"
+            }
+        },
+
+        "demo": {
+            "badge": "DEMANDER UNE DÉMO",
+            "title": "Obtenez une Démonstration Personnalisée",
+            "subtitle": "Découvrez comment ShieldGrid365 peut transformer votre programme GRC. Nos experts vous montreront une démonstration adaptée à vos besoins spécifiques.",
+
+            "contactTitle": "Contactez Notre Équipe",
+            "callLabel": "Appel gratuit",
+            "salesEmailLabel": "Email commercial",
+            "hoursLabel": "Heures de bureau",
+            "hours": "Lundi à vendredi : 8h00 - 20h00 HNE",
+            "spanishSupport": "Support en espagnol disponible",
+            "internationalNumbers": "Numéros internationaux",
+
+            "whatToExpectTitle": "Que Comprend Votre Démo ?",
+            "personalizedDemo": {
+                "title": "Démo Personnalisée",
+                "description": "Configurée selon votre secteur, taille d'entreprise et besoins GRC spécifiques."
+            },
+            "dedicatedExpert": {
+                "title": "Expert GRC Dédié",
+                "description": "Session 1:1 avec un spécialiste du secteur qui comprend vos défis."
+            },
+            "caseAnalysis": {
+                "title": "Analyse de Cas Réel",
+                "description": "Nous montrons comment nous avons résolu des défis similaires pour des entreprises comme la vôtre."
+            },
+            "roiEstimate": {
+                "title": "ROI Estimé",
+                "description": "Projection d'économies de temps, de ressources et de réduction des risques."
+            },
+
+            "whyChooseTitle": "Pourquoi Choisir ShieldGrid365 ?",
+            "uptime": "SLA de Disponibilité",
+            "responseTime": "Réponse garantie",
+            "companiesTrust": "Entreprises nous font confiance",
+            "satisfaction": "Satisfaction client",
+            "certifiedSecurity": "Sécurité Certifiée",
+            "certifications": "SOC 2 Type II, ISO 27001, Conforme à la HIPAA",
+
+            "countries": {
+                "spain": "Espagne",
+                "mexico": "Mexique",
+                "uk": "Royaume-Uni",
+                "australia": "Australie"
+            },
+            "from": {
+                "firstNameLabel": "Prénom",
+                "lastNameLabel": "Nom",
+                "emailLabel": "Email Professionnel",
+                "companyLabel": "Entreprise",
+                "phoneLabel": "Téléphone",
+                "countryLabel": "Pays",
+                "jobTitleLabel": "Poste / Fonction",
+                "companySizeLabel": "Taille de l'entreprise",
+                "industryLabel": "Secteur d'activité",
+                "useCaseLabel": "Cas d'Usage Principal",
+                "messageLabel": "Message Additionnel (optionnel)",
+                "termsLabel": "J'accepte de recevoir les communications de ShieldGrid365 et comprends que mes données personnelles seront traitées conformément à",
+
+                "firstNamePlaceholder": "Votre prénom",
+                "lastNamePlaceholder": "Votre nom",
+                "emailPlaceholder": "exemple@entreprise.com",
+                "companyPlaceholder": "Nom de votre entreprise",
+                "phonePlaceholder": "+1 (555) 123-4567",
+                "jobTitlePlaceholder": "Sélectionner un poste",
+                "companySizePlaceholder": "Sélectionner une taille",
+                "industryPlaceholder": "Sélectionner un secteur",
+                "useCasePlaceholder": "Sélectionner un cas d'usage",
+                "messagePlaceholder": "Décrivez votre situation actuelle, défis spécifiques, ou toute information nous aidant à mieux préparer votre démo...",
+
+                "termsText": "J'accepte de recevoir les communications de ShieldGrid365 et comprends que mes données personnelles seront traitées conformément à la",
+                "privacyPolicy": "Politique de Confidentialité",
+                "submitButton": "Demander une Démonstration Personnalisée",
+                "submittingButton": "Envoi de la demande...",
+                "successMessage": "Demande envoyée avec succès ! Nous vous contacterons sous 24 heures.",
+                "errorMessage": "Erreur lors de l'envoi de la demande. Veuillez réessayer.",
+                "requiredField": "Veuillez compléter tous les champs obligatoires",
+                "invalidEmail": "Adresse email invalide",
+
+                "responseGuarantee": " Réponse garantie sous 24 heures",
+                "teamContact": "Notre équipe vous contactera pour planifier une démonstration personnalisée selon vos besoins.",
+                "secureConnection": "Connexion sécurisée • Vos données sont protégées"
+            }
+        }
+    },
+
+    "footer": {
+        "description": "Plateforme de Gouvernance, Risques et Conformité de niveau entreprise, de confiance des entreprises Fortune 500 dans le monde entier.",
+
+        "trustBadges": [
+            "Certifié SOC 2 Type II",
+            "ISO 27001:2022",
+            "Conforme au RGPD"
+        ],
+
+        "platform": {
+            "title": "Plateforme",
+            "links": ["Fonctionnalités", "Tarification", "Intégrations", "Documentation API", "État", "Notes de version"]
+        },
+
+        "solutions": {
+            "title": "Solutions",
+            "links": [
+                "Banque et Finance",
+                "Santé",
+                "Technologie et SaaS",
+                "Commerce et E-commerce",
+                "Industrie Manufacturière",
+                "Gouvernement"
+            ]
+        },
+
+        "contact": {
+            "title": "Contact",
+            "email": "sales@shieldgrid365.com",
+            "phone": "+1 (800) 555-1234",
+            "address": "123 Security Boulevard\nSan Francisco, CA 94107",
+            "newsletter": {
+                "title": "Restez Informé",
+                "placeholder": "Votre email professionnel",
+                "button": "Rejoindre"
+            }
+        },
+
+        "legal": ["Politique de Confidentialité", "Conditions d'Utilisation", "Politique des Cookies", "Sécurité", "Conformité"],
+        "socials": ["Twitter", "LinkedIn", "GitHub", "Blog"],
+        "languageLabel": "FR"
+    }
+}

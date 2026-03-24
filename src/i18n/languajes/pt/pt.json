@@ -1,0 +1,974 @@
+{
+  "seo": {
+    "home": {
+      "title": "ShieldGrid365 | Plataforma Corporativa de GRC",
+      "description": "Plataforma corporativa para governança, gestão de riscos e automação de compliance em nível empresarial."
+    },
+    "login": {
+      "title": "Entrar | ShieldGrid365",
+      "description": "Acesse com segurança seu painel de governança, riscos e compliance."
+    },
+    "demo": {
+      "title": "Solicitar uma demonstração | ShieldGrid365",
+      "description": "Agende uma demonstração personalizada da nossa plataforma corporativa de GRC."
+    }
+  },
+  "menu": {
+    "product": "Produto",
+    "overview": "Visão Geral",
+    "risk": "Gestão de Riscos",
+    "compliance-automation": "Automação de Conformidade",
+    "audit": "Gestão de Auditoria",
+    "mobile-app": "App Móvel para Monitoramento e Rastreamento",
+
+    "solutions": "Soluções",
+    "banking": "Banco e Finanças",
+    "healthcare": "Saúde",
+    "technology": "Tecnologia e SaaS",
+    "retail": "Varejo e E-commerce",
+    "manufacturing": "Manufatura",
+    "government": "Governo",
+
+    "compliance": "Conformidade",
+    "iso42001": "ISO 42001",
+    "gdpr": "Conformidade GDPR",
+    "pci": "PCI DSS",
+    "dg": "Governança de Dados",
+
+    "resources": "Recursos",
+    "blog": "Blog",
+    "case-studies": "Estudos de Caso",
+    "webinars": "Webinars",
+    "documentation": "Documentação",
+    "tools": "Ferramentas",
+
+    "pricing": "Preços",
+    "essential": "Essencial",
+    "growth": "Crescimento",
+    "enterprise": "Empresarial"
+  },
+
+  "menuHeader": {
+    "login": "Login",
+    "demo": "Demonstração"
+  },
+
+  "pages": {
+    "welcome": {
+      "hero": {
+        "title": "Plataforma Empresarial GRC",
+        "highlight": "Construída para escala",
+        "description": "Uma plataforma unificada para gerenciar governança, risco e conformidade em toda sua organização.",
+        "cta": {
+          "login": "Entrar",
+          "demo": "Solicitar demonstração"
+        }
+      },
+
+      "productOverview": {
+        "header": {
+          "badge": "A PLATAFORMA",
+          "title": "Tudo o que Você Precisa para",
+          "highlight": "GRC Empresarial",
+          "description": "Uma plataforma unificada que simplifica governança, gestão de riscos e conformidade."
+        },
+        "features": {
+          "risk": {
+            "title": "Gestão de Riscos",
+            "description": "Identifique, avalie e mitigue riscos em tempo real.",
+            "bullets": [
+              "Avaliação de riscos em tempo real",
+              "Pontuação automatizada de riscos",
+              "Mapas de calor e visualização"
+            ],
+            "cta": "Explorar recursos de risco"
+          },
+          "compliance": {
+            "title": "Automação de Conformidade",
+            "description": "Automatize a conformidade em múltiplos frameworks e regulamentações.",
+            "bullets": [
+              "+150 regulamentações suportadas",
+              "Coleta automatizada de evidências",
+              "Alertas de mudanças regulatórias"
+            ],
+            "cta": "Ver recursos de conformidade"
+          },
+          "audit": {
+            "title": "Gestão de Auditoria",
+            "description": "Otimize auditorias internas e externas de forma eficiente.",
+            "bullets": [
+              "Automação de fluxos de auditoria",
+              "Rastreamento de achados e remediação",
+              "Relatórios prontos para o conselho"
+            ],
+            "cta": "Ver ferramentas de auditoria"
+          }
+        },
+        "dashboard": {
+          "title": "Dashboard Unificado",
+          "description": "Obtenha uma visão geral em tempo real da sua postura GRC.",
+          "stats": {
+            "uptime": {
+              "value": "99.9%",
+              "label": "Disponibilidade da plataforma"
+            },
+            "resolution": {
+              "value": "<24h",
+              "label": "Tempo médio de resolução"
+            },
+            "auditReduction": {
+              "value": "85%",
+              "label": "Redução do tempo de auditoria"
+            },
+            "riskSpeed": {
+              "value": "60%",
+              "label": "Avaliação de riscos mais rápida"
+            }
+          }
+        }
+      },
+
+      "solutions": {
+        "header": {
+          "badge": "SOLUÇÕES",
+          "title": "Soluções para",
+          "highlight": "Cada Indústria",
+          "description": "Soluções GRC personalizadas para diferentes indústrias e necessidades empresariais."
+        },
+        "industries": {
+          "banking": {
+            "tag": "FINANÇAS",
+            "title": "Banco e Finanças",
+            "description": "Gerencie risco financeiro e conformidade regulatória.",
+            "bullets": [
+              "Conformidade SOX",
+              "Basileia III/IV",
+              "Prevenção à Lavagem de Dinheiro"
+            ],
+            "successMetric": {
+              "label": "Redução de riscos",
+              "value": "40%"
+            }
+          },
+          "healthcare": {
+            "tag": "SAÚDE",
+            "title": "Saúde",
+            "description": "Garanta segurança e conformidade de dados de pacientes.",
+            "bullets": [
+              "Conformidade HIPAA",
+              "Regulamentações FDA",
+              "Segurança de Dados de Pacientes"
+            ],
+            "successMetric": {
+              "label": "Cobertura de conformidade",
+              "value": "99.5%"
+            }
+          },
+          "technology": {
+            "tag": "TECNOLOGIA",
+            "title": "Tecnologia e SaaS",
+            "description": "Escale a conformidade com equipes de tecnologia em rápido crescimento.",
+            "bullets": [
+              "Conformidade SOC 2",
+              "ISO 42001",
+              "Segurança na Nuvem"
+            ],
+            "successMetric": {
+              "label": "Velocidade de implantação",
+              "value": "3x mais rápido"
+            }
+          },
+          "retail": {
+            "tag": "VAREJO",
+            "title": "Varejo e E-commerce",
+            "description": "Proteja dados e transações de clientes.",
+            "bullets": [
+              "Conformidade PCI DSS",
+              "GDPR/CCPA",
+              "Risco da Cadeia de Suprimentos"
+            ],
+            "successMetric": {
+              "label": "Redução de incidentes",
+              "value": "50%"
+            }
+          },
+          "manufacturing": {
+            "tag": "MANUFATURA",
+            "title": "Manufatura",
+            "description": "Controle riscos operacionais e da cadeia de suprimentos.",
+            "bullets": [
+              "ISO 9001/14001",
+              "Conformidade OSHA",
+              "Conformidade da Cadeia de Suprimentos"
+            ],
+            "successMetric": {
+              "label": "Eficiência em auditorias",
+              "value": "30% de redução em incidentes"
+            }
+          },
+          "custom": {
+            "tag": "PERSONALIZADO",
+            "title": "Soluções Personalizadas",
+            "description": "Programas GRC adaptados a necessidades únicas.",
+            "bullets": [
+              "Fluxos de trabalho personalizados",
+              "Suporte dedicado"
+            ],
+            "cta": "Fale com um especialista"
+          }
+        },
+        "results": {
+          "title": "Resultados Comprovados",
+          "description": "Impacto mensurável em todas as indústrias.",
+          "items": [
+            {
+              "value": "85%",
+              "title": "Relatórios de conformidade mais rápidos para Global Bipk",
+              "description": "Reduziu relatórios mensais de conformidade de 2 semanas para 2 dias."
+            },
+            {
+              "value": "$2.3M",
+              "title": "Economias anuais para Healthcare Provider",
+              "description": "Reduziu trabalho manual de auditoria e evitou multas por não conformidade."
+            },
+            {
+              "value": "12 Semanas",
+              "title": "Para conformidade SOC 2 em Tech Startup",
+              "description": "Acelerou vendas empresariais com documentação de conformidade pronta."
+            }
+          ]
+        },
+        "cta": {
+          "title": "Veja em Ação",
+          "description": "Descubra como nossa plataforma se adapta ao seu negócio.",
+          "action": "Solicitar demonstração"
+        }
+      },
+
+      "compliance": {
+        "header": {
+          "badge": "CONFORMIDADE",
+          "title": "Cobertura de Conformidade",
+          "highlight": "Global",
+          "description": "Suporte para os principais frameworks regulatórios globais."
+        },
+        "globalCoverage": {
+          "title": "Padrões Mundiais",
+          "description": "Cobertura abrangente de conformidade.",
+          "primaryFrameworks": {
+            "gdpr": {
+              "region": "UE",
+              "tag": "GDPR",
+              "title": "Regulamento Geral de Proteção de Dados",
+              "description": "Regulamentação de proteção de dados e privacidade.",
+              "coverage": "Completo"
+            },
+            "hipaa": {
+              "region": "EUA",
+              "tag": "HIPAA",
+              "title": "Lei de Portabilidade e Responsabilidade de Seguros de Saúde",
+              "description": "Proteção de dados de saúde.",
+              "coverage": "Completo"
+            },
+            "soc2": {
+              "region": "EUA",
+              "tag": "SOC 2",
+              "title": "Controles de Organização de Serviço",
+              "description": "Controles de segurança e disponibilidade.",
+              "coverage": "Completo"
+            },
+            "iso42001": {
+              "region": "Global",
+              "tag": "ISO 42001",
+              "title": "Gestão da Segurança da Informação",
+              "description": "Certificação ISMS.",
+              "coverage": "Completo"
+            }
+          },
+          "secondaryFrameworks": []
+        },
+        "lifecycle": {
+          "title": "Ciclo de Vida da Conformidade",
+          "description": "Da avaliação ao monitoramento contínuo.",
+          "steps": []
+        },
+        "comparison": {
+          "title": "Manual vs Automatizado",
+          "description": "Por que a automação é importante.",
+          "manual": {
+            "title": "Conformidade Manual",
+            "items": [
+              {
+                "title": "Caos de Planilhas",
+                "description": "Múltiplas versões em e-mails e unidades compartilhadas"
+              },
+              {
+                "title": "Erro Humano",
+                "description": "Prazos perdidos e evidências incompletas"
+              },
+              {
+                "title": "Estresse de Auditoria",
+                "description": "Correria de última hora para reunir documentação"
+              }
+            ],
+            "timeline": {
+              "label": "Tempo médio",
+              "value": "Meses",
+              "note": "Alto esforço"
+            }
+          },
+          "automated": {
+            "title": "Conformidade Automatizada",
+            "items": [
+              {
+                "title": "Fonte Única da Verdade",
+                "description": "Plataforma centralizada para todas as atividades de conformidade"
+              },
+              {
+                "title": "Fluxos de Trabalho Automatizados",
+                "description": "Coleta de evidências, lembretes e relatórios"
+              },
+              {
+                "title": "Sempre Pronto para Auditoria",
+                "description": "Status de conformidade e documentação em tempo real"
+              }
+            ],
+            "timeline": {
+              "label": "Tempo médio",
+              "value": "Semanas",
+              "note": "Baixo esforço"
+            }
+          }
+        },
+        "certifications": {
+          "title": "Certificações e Confiança",
+          "description": "Padrões de segurança reconhecidos pela indústria.",
+          "items": []
+        },
+        "cta": {
+          "title": "Mantenha-se em Conformidade",
+          "description": "Automatize a conformidade em todos os frameworks.",
+          "action": "Começar"
+        }
+      },
+
+      "resources": {
+        "header": {
+          "badge": "RECURSOS",
+          "title": "Aprenda e",
+          "highlight": "Cresça",
+          "description": "Insights, guias e ferramentas para dominar o GRC."
+        },
+        "sections": {
+          "blog": {
+            "title": "Blog",
+            "description": "Últimos insights, atualizações e melhores práticas em governança, risco e conformidade.",
+            "items": [
+              {
+                "date": "12 Jan 2026",
+                "category": "Conformidade",
+                "title": "Como Otimizar Processos GRC em Organizações em Crescimento",
+                "summary": "Aprenda estratégias práticas para simplificar governança e conformidade sem desacelerar suas equipes."
+              },
+              {
+                "date": "03 Fev 2026",
+                "category": "Gestão de Riscos",
+                "title": "Principais Indicadores de Risco que Toda Equipe de Segurança Deve Monitorar",
+                "summary": "Uma análise detalhada das principais métricas de risco que ajudam organizações a antecipar e mitigar ameaças."
+              }
+            ],
+            "cta": "Ver todos os artigos"
+          },
+          "webinars": {
+            "title": "Webinars",
+            "description": "Sessões ao vivo e sob demanda lideradas por especialistas em GRC e segurança.",
+            "items": [
+              {
+                "status": "próximo",
+                "date": "5 Mar 2026",
+                "title": "Construindo um Programa GRC Escalável desde o Primeiro Dia",
+                "summary": "Melhores práticas para projetar um framework GRC que cresce com sua organização.",
+                "action": {
+                  "value": "Registrar agora",
+                  "to": "#aquiLink"
+                }
+              },
+              {
+                "status": "gravação",
+                "date": "18 Jan 2026",
+                "title": "Preparação para SOC 2: Armadilhas Comuns e Como Evitá-las",
+                "summary": "Uma discussão liderada por especialistas sobre como se preparar para auditorias SOC 2 de forma eficiente.",
+                "action": {
+                  "value": "Assistir gravação",
+                  "to": "#aquiLink"
+                }
+              }
+            ],
+            "cta": "Ver webinars"
+          },
+          "documentation": {
+            "title": "Documentação",
+            "description": "Guias técnicos, APIs e referências de implementação.",
+            "items": [
+              {
+                "title": "Guia de Introdução",
+                "description": "Instruções passo a passo para configurar seu workspace GRC.",
+                "href": "/docs/getting-started"
+              },
+              {
+                "title": "Referência da API",
+                "description": "Documentação detalhada para integrar o ShieldGrid com seus sistemas.",
+                "href": "/docs/api"
+              }
+            ],
+            "cta": "Ler documentação"
+          },
+          "caseStudies": {
+            "title": "Estudos de Caso",
+            "description": "Histórias de sucesso do mundo real de organizações que usam o ShieldGrid.",
+            "items": [
+              {
+                "company": "FinTrust",
+                "industry": "Serviços Financeiros",
+                "metric": "40% auditorias mais rápidas",
+                "summary": "FinTrust reduziu o tempo de preparação de auditorias centralizando fluxos de trabalho de conformidade."
+              },
+              {
+                "company": "HealthCore",
+                "industry": "Saúde",
+                "metric": "60% menos lacunas de conformidade",
+                "summary": "HealthCore melhorou a visibilidade de riscos e o rastreamento de remediação entre departamentos."
+              }
+            ],
+            "cta": "Ver estudos de caso"
+          },
+          "tools": {
+            "title": "Ferramentas",
+            "description": "Ferramentas e recursos GRC gratuitos que suportam fluxos de trabalho de conformidade e remediação.",
+            "items": [
+              {
+                "id": "mobile-app",
+                "icon": "smartphone",
+                "title": "Aplicativo Móvel",
+                "description": "Acompanhe o status de avaliações e projetos de remediação de qualquer lugar."
+              },
+              {
+                "id": "notifications",
+                "icon": "bell",
+                "title": "Notificações e Alertas",
+                "description": "Alertas em tempo real sobre status de avaliações, tarefas e eventos críticos."
+              },
+              {
+                "id": "risk-dashboard",
+                "icon": "hammer",
+                "title": "Dashboard de Riscos",
+                "description": "Visão centralizada de riscos, controles e progresso de remediação."
+              }
+            ],
+            "cta": "Explorar ferramentas"
+          },
+          "support": {
+            "title": "Suporte",
+            "description": "Obtenha ajuda, orientação e assistência especializada sempre que precisar.",
+            "items": [
+              {
+                "title": "Central de Ajuda",
+                "subtitle": "Navegue por FAQs e artigos de autoatendimento",
+                "href": "/support/help-center"
+              },
+              {
+                "title": "Contatar Suporte",
+                "subtitle": "Entre em contato com nossa equipe de suporte para assistência personalizada",
+                "href": "/support/contact"
+              }
+            ],
+            "sla": "SLA de suporte 24/7"
+          }
+        },
+        "featuredResource": {
+          "badge": "DESTAQUE",
+          "title": "Guia Inicial de GRC",
+          "description": "Tudo o que você precisa para começar.",
+          "bullets": [],
+          "actions": {
+            "primary": "Baixar",
+            "secondary": "Saiba mais"
+          },
+          "meta": {
+            "label": "Guia",
+            "pages": "45",
+            "format": "PDF"
+          }
+        },
+        "newsletter": {
+          "title": "Mantenha-se Atualizado",
+          "description": "Assine nossa newsletter.",
+          "placeholder": "Digite seu e-mail",
+          "button": "Assinar",
+          "privacyText": "Respeitamos sua privacidade.",
+          "privacyLink": "Política de Privacidade"
+        },
+        "finalCta": {
+          "title": "Pronto para Começar?",
+          "description": "Assuma o controle do seu GRC hoje.",
+          "action": "Solicitar demonstração"
+        }
+      },
+
+      "pricing": {
+        "header": {
+          "badge": "PREÇOS",
+          "title": "Planos",
+          "highlight": "Flexíveis",
+          "description": "Escolha o plano que se adequa à sua organização."
+        },
+        "billingToggle": {
+          "annual": {
+            "label": "Anual",
+            "discountLabel": "Economize com faturamento anual"
+          },
+          "monthly": {
+            "label": "Mensal"
+          }
+        },
+        "plans": {
+          "essential": {
+            "badge": "ESSENCIAL",
+            "name": "Essencial",
+            "description": "Para pequenas equipes iniciando sua jornada GRC.",
+            "pricing": {
+              "monthly": "$599",
+              "yearly": "$500",
+              "taxes": "Impostos não incluídos",
+              "savings": "Economize anualmente"
+            },
+            "features": [
+              "Até 5 usuários",
+              "Avaliação básica de riscos",
+              "Conformidade GDPR",
+              "Suporte padrão (horário comercial)",
+              "Relatórios básicos",
+              "Gestão básica de auditoria",
+              "Repositório de documentos (5GB)",
+              "Modelos básicos de conformidade"
+            ],
+            "cta": "Iniciar teste gratuito",
+            "note": "Teste gratuito de 14 dias"
+          },
+          "growth": {
+            "popularBadge": "MAIS POPULAR",
+            "badge": "PROFISSIONAL",
+            "name": "Crescimento",
+            "description": "Para organizações em crescimento.",
+            "pricing": {
+              "monthly": "$1099",
+              "yearly": "$999",
+              "taxes": "Impostos não incluídos",
+              "savings": "Economize anualmente"
+            },
+            "features": [
+              "Até 15 usuários",
+              "Gestão avançada de riscos",
+              "Conformidade SOC 2, ISO 42001",
+              "Suporte prioritário (24/5)",
+              "Análises e relatórios avançados",
+              "Fluxos de trabalho personalizados",
+              "Gestão de riscos de terceiros",
+              "Coleta automatizada de evidências",
+              "Dashboards em tempo real",
+              "Gestão avançada de auditoria",
+              "Repositório de documentos (25GB)"
+            ],
+            "cta": "Iniciar teste gratuito",
+            "note": "Teste gratuito de 30 dias"
+          },
+          "scale": {
+            "badge": "EMPRESARIAL",
+            "name": "Escala",
+            "description": "Para grandes organizações.",
+            "pricing": {
+              "customLabel": "Preço personalizado",
+              "subtitle": "Adaptado às suas necessidades",
+              "benefits": "Descontos por volume disponíveis"
+            },
+            "features": [
+              "Até 30 usuários",
+              "Gestão empresarial de riscos",
+              "Todos os frameworks de conformidade",
+              "Suporte dedicado 24/7",
+              "Integrações personalizadas",
+              "CSM e implementação dedicados",
+              "Opção de implantação on-premise",
+              "Relatórios e análises personalizados",
+              "SSO e SAML avançados",
+              "Desenvolvimento de API personalizado",
+              "Relatórios white-label",
+              "Treinamento e onboarding dedicados",
+              "Garantias de SLA (99.99%)",
+              "Armazenamento ilimitado de documentos"
+            ],
+            "cta": "Contatar vendas",
+            "note": "Demonstração personalizada"
+          }
+        },
+        "comparison": {
+          "header": {
+            "title": "Comparação de Planos",
+            "description": "Compare recursos entre planos."
+          },
+          "table": {
+            "columns": {
+              "feature": "Recurso",
+              "essential": {
+                "label": "Essencial",
+                "price": "$599 / mês"
+              },
+              "growth": {
+                "label": "Crescimento",
+                "price": "$1.099 / mês"
+              },
+              "scale": {
+                "label": "Escala",
+                "price": "Personalizado"
+              }
+            },
+            "rows": [
+              {
+                "feature": "Usuários Incluídos",
+                "essential": "Até 5",
+                "growth": "Até 15",
+                "scale": "Até 30"
+              },
+              {
+                "feature": "Gestão de Riscos",
+                "essential": "Avaliação básica de riscos",
+                "growth": "Gestão avançada de riscos",
+                "scale": "Gestão empresarial de riscos"
+              },
+              {
+                "feature": "Frameworks de Conformidade",
+                "essential": "GDPR",
+                "growth": "SOC 2, ISO 42001",
+                "scale": "Todos os frameworks de conformidade"
+              },
+              {
+                "feature": "Gestão de Auditoria",
+                "essential": "Gestão básica de auditoria",
+                "growth": "Gestão avançada de auditoria",
+                "scale": "Gestão empresarial de auditoria"
+              },
+              {
+                "feature": "Gestão de Riscos de Terceiros",
+                "essential": "Não incluído",
+                "growth": "Incluído",
+                "scale": "Avançado"
+              },
+              {
+                "feature": "Relatórios e Análises",
+                "essential": "Relatórios básicos",
+                "growth": "Análises e relatórios avançados",
+                "scale": "Relatórios e análises personalizados"
+              },
+              {
+                "feature": "Dashboards",
+                "essential": "Padrão",
+                "growth": "Dashboards em tempo real",
+                "scale": "Dashboards personalizados"
+              },
+              {
+                "feature": "Fluxos de Trabalho Personalizados",
+                "essential": "Não incluído",
+                "growth": "Incluído",
+                "scale": "Totalmente personalizável"
+              },
+              {
+                "feature": "Suporte",
+                "essential": "Padrão (horário comercial)",
+                "growth": "Suporte prioritário (24/5)",
+                "scale": "Suporte dedicado 24/7"
+              },
+              {
+                "feature": "SLA",
+                "essential": "SLA padrão",
+                "growth": "SLA aprimorado",
+                "scale": "SLA 99.99%"
+              },
+              {
+                "feature": "Single Sign-On (SSO)",
+                "essential": "Não incluído",
+                "growth": "Incluído",
+                "scale": "SSO e SAML avançados"
+              },
+              {
+                "feature": "Armazenamento de Documentos",
+                "essential": "5GB",
+                "growth": "25GB",
+                "scale": "Ilimitado"
+              },
+              {
+                "feature": "Integrações e API",
+                "essential": "Limitadas",
+                "growth": "Integrações padrão",
+                "scale": "API e integrações personalizadas"
+              },
+              {
+                "feature": "Opções de Implantação",
+                "essential": "Nuvem",
+                "growth": "Nuvem",
+                "scale": "Nuvem e on-premise"
+              },
+              {
+                "feature": "Treinamento e Onboarding",
+                "essential": "Autoatendimento",
+                "growth": "Onboarding guiado",
+                "scale": "Treinamento e onboarding dedicados"
+              }
+            ]
+          }
+        },
+        "roi": {
+          "title": "Calculadora de ROI",
+          "description": "Estime suas economias potenciais com base em parâmetros selecionados.",
+          "inputs": {
+            "employees": {
+              "label": "Número de funcionários",
+              "min": 1,
+              "max": 10000
+            },
+            "frameworks": {
+              "label": "Frameworks de referência",
+              "options": [
+                "GDPR",
+                "SOC 2",
+                "ISO 42001",
+                "PCI DSS",
+                "NIST CSF"
+              ],
+              "hoursPerFramework": 120
+            }
+          },
+          "calculation": {
+            "costPerHour": 75,
+            "automationSavingsRate": 0.65,
+            "monthlyPlatformCost": 1200
+          },
+          "results": {
+            "savingsLabel": "Economias estimadas",
+            "roiLabel": "ROI",
+            "timelineLabel": "Cronograma do ROI",
+            "averageRoi": {
+              "label": "ROI médio",
+              "value": "3x",
+              "description": "Com base em dados de clientes"
+            }
+          }
+        },
+        "faq": {
+          "header": {
+            "title": "Perguntas Frequentes",
+            "description": "Perguntas comuns sobre preços."
+          },
+          "items": [
+            {
+              "question": "Posso mudar de plano depois?",
+              "answer": "Sim, você pode atualizar ou reduzir seu plano a qualquer momento. As mudanças entram em vigor no início do seu próximo ciclo de faturamento."
+            },
+            {
+              "question": "Há um teste gratuito?",
+              "answer": "Sim! Todos os planos incluem um teste gratuito (14 dias para Essencial, 30 dias para Crescimento). Nenhum cartão de crédito é necessário para começar."
+            },
+            {
+              "question": "Quais métodos de pagamento vocês aceitam?",
+              "answer": "Aceitamos todos os principais cartões de crédito, transferências bancárias ACH e transferências bancárias para planos anuais."
+            },
+            {
+              "question": "Vocês oferecem desconto para organizações sem fins lucrativos?",
+              "answer": "Sim, oferecemos preços especiais para organizações sem fins lucrativos registradas e instituições educacionais."
+            },
+            {
+              "question": "Há uma taxa de configuração?",
+              "answer": "Sem taxas de configuração para os planos Essencial e Crescimento. Planos Empresariais podem incluir serviços de implementação."
+            },
+            {
+              "question": "Posso obter um orçamento personalizado?",
+              "answer": "Absolutamente! Entre em contato com nossa equipe de vendas para preços personalizados com base em seus requisitos específicos."
+            },
+            {
+              "question": "Qual é a política de reembolso?",
+              "answer": "Oferecemos uma garantia de devolução do dinheiro em 30 dias para planos anuais. Planos mensais podem ser cancelados a qualquer momento."
+            },
+            {
+              "question": "Vocês oferecem descontos para múltiplos anos?",
+              "answer": "Sim, oferecemos descontos adicionais para compromissos de 2 e 3 anos em planos Empresariais."
+            }
+          ]
+        },
+        "finalCta": {
+          "title": "Comece Sua Jornada GRC",
+          "description": "Escolha o plano que atende às suas necessidades.",
+          "actions": {
+            "primary": "Iniciar teste gratuito",
+            "secondary": "Contatar vendas"
+          }
+        }
+      }
+    },
+
+    "login": {
+      "title": "Entrar",
+      "subtitle": "Acesse seu painel de controle GRC",
+      "noAccount": "Não tem uma conta?",
+      "getDemo": "Solicitar demonstração",
+      "form": {
+        "emailLabel": "E-mail",
+        "emailPlaceholder": "voce@exemplo.com",
+        "passwordLabel": "Senha",
+        "passwordPlaceholder": "••••••••",
+        "submit": "Entrar",
+        "submitting": "Entrando...",
+        "errorRequired": "Por favor, preencha todos os campos obrigatórios"
+      }
+    },
+
+    "demo": {
+      "badge": "SOLICITAR UMA DEMONSTRAÇÃO",
+      "title": "Obtenha uma Demonstração Personalizada",
+      "subtitle": "Descubra como o ShieldGrid365 pode transformar seu programa GRC. Nossos especialistas mostrarão uma demonstração adaptada às suas necessidades específicas.",
+
+      "contactTitle": "Contate Nossa Equipe",
+      "callLabel": "Chamada gratuita",
+      "salesEmailLabel": "E-mail de vendas",
+      "hoursLabel": "Horário comercial",
+      "hours": "Segunda a Sexta: 8:00 AM - 8:00 PM EST",
+      "spanishSupport": "Suporte em espanhol disponível",
+      "internationalNumbers": "Números internacionais",
+
+      "whatToExpectTitle": "O que Está Incluído na Sua Demonstração?",
+      "personalizedDemo": {
+        "title": "Demonstração Personalizada",
+        "description": "Configurada de acordo com sua indústria, tamanho da empresa e necessidades específicas de GRC."
+      },
+      "dedicatedExpert": {
+        "title": "Especialista GRC Dedicado",
+        "description": "Sessão 1:1 com um especialista da indústria que entende seus desafios."
+      },
+      "caseAnalysis": {
+        "title": "Análise de Caso Real",
+        "description": "Mostramos como resolvemos desafios semelhantes para empresas como a sua."
+      },
+      "roiEstimate": {
+        "title": "ROI Estimado",
+        "description": "Projeção de economias de tempo, recursos e redução de riscos."
+      },
+
+      "whyChooseTitle": "Por que Escolher ShieldGrid365?",
+      "uptime": "SLA de Disponibilidade",
+      "responseTime": "Resposta Garantida",
+      "companiesTrust": "Empresas confiam em nós",
+      "satisfaction": "Satisfação do Cliente",
+      "certifiedSecurity": "Segurança Certificada",
+      "certifications": "SOC 2 Tipo II, ISO 27001, HIPAA Compliant",
+
+      "countries": {
+        "spain": "Espanha",
+        "mexico": "México",
+        "uk": "Reino Unido",
+        "australia": "Austrália"
+      },
+      "from": {
+        "firstNameLabel": "Nome",
+        "lastNameLabel": "Sobrenome",
+        "emailLabel": "E-mail Corporativo",
+        "companyLabel": "Empresa",
+        "phoneLabel": "Telefone",
+        "countryLabel": "País",
+        "jobTitleLabel": "Cargo / Posição",
+        "companySizeLabel": "Tamanho da Empresa",
+        "industryLabel": "Indústria",
+        "useCaseLabel": "Caso de Uso Principal",
+        "messageLabel": "Mensagem Adicional (opcional)",
+        "termsLabel": "Concordo em receber comunicações da ShieldGrid365 e entendo que meus dados pessoais serão processados de acordo com a",
+
+        "firstNamePlaceholder": "Seu nome",
+        "lastNamePlaceholder": "Seu sobrenome",
+        "emailPlaceholder": "exemplo@empresa.com",
+        "companyPlaceholder": "Nome da sua empresa",
+        "phonePlaceholder": "+1 (555) 123-4567",
+        "jobTitlePlaceholder": "Selecionar cargo",
+        "companySizePlaceholder": "Selecionar tamanho",
+        "industryPlaceholder": "Selecionar indústria",
+        "useCasePlaceholder": "Selecionar caso de uso",
+        "messagePlaceholder": "Descreva sua situação atual, desafios específicos ou qualquer informação que nos ajude a preparar melhor sua demonstração...",
+
+        "termsText": "Concordo em receber comunicações da ShieldGrid365 e entendo que meus dados pessoais serão processados de acordo com a",
+        "privacyPolicy": "Política de Privacidade",
+        "submitButton": "Solicitar Demonstração Personalizada",
+        "submittingButton": "Enviando solicitação...",
+        "successMessage": "Solicitação enviada com sucesso! Entraremos em contato em até 24 horas.",
+        "errorMessage": "Erro ao enviar solicitação. Por favor, tente novamente.",
+        "requiredField": "Por favor, preencha todos os campos obrigatórios",
+        "invalidEmail": "E-mail inválido",
+
+        "responseGuarantee": " Resposta garantida em 24 horas",
+        "teamContact": "Nossa equipe entrará em contato para agendar uma demonstração personalizada de acordo com suas necessidades.",
+        "secureConnection": "Conexão segura • Seus dados estão protegidos"
+      }
+    }
+  },
+
+  "footer": {
+    "description": "Plataforma empresarial de Governança, Risco e Conformidade de nível empresarial confiada por empresas Fortune 500 em todo o mundo.",
+
+    "trustBadges": [
+      "Certificado SOC 2 Tipo II",
+      "ISO 27001:2022",
+      "Conformidade GDPR"
+    ],
+
+    "platform": {
+      "title": "Plataforma",
+      "links": [
+        "Recursos",
+        "Preços",
+        "Integrações",
+        "Documentação da API",
+        "Status",
+        "Notas de Lançamento"
+      ]
+    },
+
+    "solutions": {
+      "title": "Soluções",
+      "links": [
+        "Banco e Finanças",
+        "Saúde",
+        "Tecnologia e SaaS",
+        "Varejo e E-commerce",
+        "Manufatura",
+        "Governo"
+      ]
+    },
+
+    "contact": {
+      "title": "Contato",
+      "email": "vendas@shieldgrid365.com",
+      "phone": "+1 (800) 555-1234",
+      "address": "123 Security Boulevard\nSan Francisco, CA 94107",
+      "newsletter": {
+        "title": "Mantenha-se Atualizado",
+        "placeholder": "Seu e-mail corporativo",
+        "button": "Participar"
+      }
+    },
+
+    "legal": [
+      "Política de Privacidade",
+      "Termos de Serviço",
+      "Política de Cookies",
+      "Segurança",
+      "Conformidade"
+    ],
+    "socials": ["Twitter", "LinkedIn", "GitHub", "Blog"],
+    "languageLabel": "PT"
+  }
+}
