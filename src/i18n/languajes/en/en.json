@@ -512,8 +512,8 @@
                                 "name": "Essential",
                                 "description": "For small teams starting their GRC journey.",
                                 "pricing": {
-                                    "monthly": "$599",
-                                    "yearly": "$500",
+                                    "monthly": "$799",
+                                    "yearly": "$700",
                                     "taxes": "Taxes not included",
                                     "savings": "Save annually"
                                 },
@@ -536,8 +536,8 @@
                                 "name": "Growth",
                                 "description": "For growing organizations.",
                                 "pricing": {
-                                    "monthly": "$1099",
-                                    "yearly": "$999",
+                                    "monthly": "$1299",
+                                    "yearly": "$1199",
                                     "taxes": "Taxes not included",                                 
                                     "savings": "Save annually"
                                 },
@@ -596,11 +596,11 @@
                                 "feature": "Feature",
                                 "essential": {
                                     "label": "Essential",
-                                    "price": "$599 / month"
+                                    "price": "$799 / month"
                                 },
                                 "growth": {
                                     "label": "Growth",
-                                    "price": "$1,099 / month"
+                                    "price": "$1,299 / month"
                                 },
                                 "scale": {
                                     "label": "Scale",
@@ -922,7 +922,7 @@
         "contact": {
         "title": "Contact",
         "email": "sales@shieldgrid365.com",
-        "phone": "+1 (800) 555-1234",
+        "phone": "+1 (813) 595-4933",
         "address": "123 Security Boulevard\nSan Francisco, CA 94107",
         "newsletter": {
             "title": "Stay Updated",
