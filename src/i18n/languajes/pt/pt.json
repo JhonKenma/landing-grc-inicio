@@ -537,8 +537,8 @@
             "name": "Essencial",
             "description": "Para pequenas equipes iniciando sua jornada GRC.",
             "pricing": {
-              "monthly": "$599",
-              "yearly": "$500",
+              "monthly": "$799",
+              "yearly": "$700",
               "taxes": "Impostos não incluídos",
               "savings": "Economize anualmente"
             },
@@ -561,8 +561,8 @@
             "name": "Crescimento",
             "description": "Para organizações em crescimento.",
             "pricing": {
-              "monthly": "$1099",
-              "yearly": "$999",
+              "monthly": "$1299",
+              "yearly": "$1199",
               "taxes": "Impostos não incluídos",
               "savings": "Economize anualmente"
             },
@@ -621,11 +621,11 @@
               "feature": "Recurso",
               "essential": {
                 "label": "Essencial",
-                "price": "$599 / mês"
+                "price": "$799 / mês"
               },
               "growth": {
                 "label": "Crescimento",
-                "price": "$1.099 / mês"
+                "price": "$1.299 / mês"
               },
               "scale": {
                 "label": "Escala",
@@ -952,7 +952,7 @@
     "contact": {
       "title": "Contato",
       "email": "vendas@shieldgrid365.com",
-      "phone": "+1 (800) 555-1234",
+      "phone": "+1 (813) 595-4933",
       "address": "123 Security Boulevard\nSan Francisco, CA 94107",
       "newsletter": {
         "title": "Mantenha-se Atualizado",
