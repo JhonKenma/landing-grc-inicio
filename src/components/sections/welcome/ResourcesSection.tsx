@@ -1,7 +1,7 @@
 import { DEFAULT_LANG } from "@/config/lang";
 import { useTranslation } from "@/hooks/useTranslation";
 import type { Lang } from "@/types";
-import { ArrowRight, Bell, Book, ChartColumn, FileStack, Hammer, Headset, LifeBuoy, NotebookPen, Smartphone, Video } from "lucide-react";
+import { Bell, Book, ChartColumn, FileStack, Hammer,LifeBuoy, NotebookPen, Smartphone, Video } from "lucide-react";
 import { Link, useParams } from "react-router-dom";
 
 export default function ResourcesSection() {

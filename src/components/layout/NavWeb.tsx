@@ -16,10 +16,16 @@ export default function NavWeb({ lang }: NavWebProps) {
 
   const [activeSection, setActiveSection] = useState("")
   const observerRef = useRef<IntersectionObserver | null>(null)
+  const rafRef = useRef<number | null>(null)
 
   useEffect(() => {
     if (!isHome) {
-      setActiveSection("")
+      if (rafRef.current) cancelAnimationFrame(rafRef.current)
+      rafRef.current = requestAnimationFrame(() => {
+        setActiveSection("")
+        rafRef.current = null
+      })
+
       return
     }
 
@@ -48,7 +54,10 @@ export default function NavWeb({ lang }: NavWebProps) {
     sections.forEach(section => observer.observe(section))
     observerRef.current = observer
 
-    return () => observer.disconnect()
+    return () => {
+      if (rafRef.current) cancelAnimationFrame(rafRef.current)
+      observer.disconnect()
+    }
   }, [isHome])
 
   const handleScrollTo = (id: string) => (e: React.MouseEvent) => {
