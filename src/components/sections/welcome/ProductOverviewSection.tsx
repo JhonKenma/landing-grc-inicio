@@ -18,7 +18,7 @@ export default function ProductOverviewSection() {
   } = useTranslation(currentLang);
 
   return (
-    <article className="min-h-screen py-20 px-4" id="product">
+    <article className="min-h-screen py-20 px-4 scroll-mt-28" id="product">
       <div className="max-w-7xl mx-auto">
         {/* Header de la sección */}
         <div className="text-center mb-16">
@@ -45,7 +45,7 @@ export default function ProductOverviewSection() {
           {/* Card 1: Risk Management */}
           <div
             id="risk"
-            className="group p-8 bg-gradient-to-br from-slate-800/30 to-slate-900/30 backdrop-blur-sm border border-slate-700/50 rounded-2xl transition-all duration-300 hover:border-blue-500/30 hover:translate-y-[-5px] hover:shadow-xl hover:shadow-blue-900/10"
+            className="group p-8 bg-gradient-to-br from-slate-800/30 to-slate-900/30 backdrop-blur-sm border border-slate-700/50 rounded-2xl transition-all duration-300 hover:border-blue-500/30 hover:translate-y-[-5px] hover:shadow-xl hover:shadow-blue-900/10 scroll-mt-28"
           >
             <div className="inline-flex p-4 rounded-2xl bg-red-500/10 mb-6">
               <div className="text-2xl">
@@ -80,7 +80,7 @@ export default function ProductOverviewSection() {
           {/* Card 2: Compliance Automation */}
           <div
             id="compliance-automation"
-            className="group p-8 bg-gradient-to-br from-slate-800/30 to-slate-900/30 backdrop-blur-sm border border-slate-700/50 rounded-2xl transition-all duration-300 hover:border-emerald-500/30 hover:translate-y-[-5px] hover:shadow-xl hover:shadow-emerald-900/10"
+            className="group p-8 bg-gradient-to-br from-slate-800/30 to-slate-900/30 backdrop-blur-sm border border-slate-700/50 rounded-2xl transition-all duration-300 hover:border-emerald-500/30 hover:translate-y-[-5px] hover:shadow-xl hover:shadow-emerald-900/10 scroll-mt-28"
           >
             <div className="inline-flex p-4 rounded-2xl bg-emerald-500/10 mb-6">
               <div className="text-2xl">
@@ -117,7 +117,7 @@ export default function ProductOverviewSection() {
           {/* Card 3: Audit Management */}
           <div
             id="audit"
-            className="group p-8 bg-gradient-to-br from-slate-800/30 to-slate-900/30 backdrop-blur-sm border border-slate-700/50 rounded-2xl transition-all duration-300 hover:border-purple-500/30 hover:translate-y-[-5px] hover:shadow-xl hover:shadow-purple-900/10"
+            className="group p-8 bg-gradient-to-br from-slate-800/30 to-slate-900/30 backdrop-blur-sm border border-slate-700/50 rounded-2xl transition-all duration-300 hover:border-purple-500/30 hover:translate-y-[-5px] hover:shadow-xl hover:shadow-purple-900/10 scroll-mt-28"
           >
             <div className="inline-flex p-4 rounded-2xl bg-purple-500/10 mb-6">
               <div className="text-2xl">
@@ -151,7 +151,7 @@ export default function ProductOverviewSection() {
         </div>
 
         {/* Dashboard Preview */}
-        <div id="overview" className="mb-20">
+        <div id="overview" className="mb-20 scroll-mt-28">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-white mb-4">
               {productOverview.dashboard.title}

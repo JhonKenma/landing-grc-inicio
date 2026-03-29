@@ -3,6 +3,7 @@ import { NavLink, useLocation } from "react-router-dom"
 import { useTranslation } from "@/hooks/useTranslation"
 import { User } from "lucide-react"
 import { menuItems } from "@/data"
+import { smoothScrollTo } from "@/utils/smoothScroll"
 import type { Lang } from "@/types"
 
 type NavWebProps = {
@@ -65,9 +66,7 @@ export default function NavWeb({ lang }: NavWebProps) {
     const element = document.getElementById(id)
     if (!element) return
 
-    const offset = 80
-    const top = element.getBoundingClientRect().top + window.scrollY - offset
-    window.scrollTo({ top, behavior: "smooth" })
+    smoothScrollTo(element, { offset: 80, durationMs: 650 })
     setActiveSection(id)
   }
 

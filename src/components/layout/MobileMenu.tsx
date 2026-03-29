@@ -1,5 +1,6 @@
 import { menuItems } from "@/data"
 import { useTranslation } from "@/hooks/useTranslation"
+import { smoothScrollTo } from "@/utils/smoothScroll"
 import type { Lang } from "@/types"
 import { useEffect, useState } from "react"
 import { NavLink, useLocation } from "react-router-dom"
@@ -14,10 +15,7 @@ export default function MobileMenu({ onClose, lang }: MobileMenuType) {
   const isHome = location.pathname === `/${lang}`
   const { menu } = useTranslation(lang)
 
-  const [activeSection, setActiveSection] = useState("")
   const [openItem, setOpenItem] = useState<string | null>(null)
-
-  console.log(activeSection)
 
   useEffect(() => {
     document.body.style.overflow = "hidden"
@@ -29,11 +27,9 @@ export default function MobileMenu({ onClose, lang }: MobileMenuType) {
   const handleMenuItemClick = (id: string) => {
     if (isHome) {
       const el = document.getElementById(id)
-      if (!el) return
-
-      const y = el.getBoundingClientRect().top + window.scrollY - 80
-      window.scrollTo({ top: y, behavior: "smooth" })
-      setActiveSection(id)
+      if (el) {
+        smoothScrollTo(el, { offset: 80, durationMs: 650 })
+      }
     }
     onClose()
   }

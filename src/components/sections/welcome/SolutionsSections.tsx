@@ -21,7 +21,7 @@ export default function SolutionsSections() {
     } = useTranslation(currentLang);
 
     return (
-        <article className="min-h-screen py-20 px-4" id="solutions">
+        <article className="min-h-screen py-20 px-4 scroll-mt-28" id="solutions">
         <div className="max-w-7xl mx-auto">
             {/* Header */}
             <div className="text-center mb-16">

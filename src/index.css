@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 /* Agrega esto a tu archivo de estilos global */
 @keyframes fadeIn {
   from {
@@ -150,5 +152,7 @@ html {
 }
 
 
-@import "tailwindcss";
+:root {
+  scroll-behavior: smooth;
+}
 

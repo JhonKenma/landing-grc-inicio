@@ -1,6 +1,5 @@
-import { Mail, Phone, MapPin, ChevronUp, Landmark, Hospital, Laptop, Store, Building, Book } from 'lucide-react';
+import { Mail, Phone, MapPin, Landmark, Hospital, Laptop, Store, Building, Book } from 'lucide-react';
 import { Link, useParams } from 'react-router-dom';
-import { useState, useEffect } from 'react';
 import { useTranslation } from '@/hooks/useTranslation';
 import type { Lang } from '@/types';
 import LanguageSelector from '../ui/LanguageSelector';
@@ -15,29 +14,11 @@ export default function Footer() {
 
 
   const currentYear = new Date().getFullYear();
-  const [showScroll, setShowScroll] = useState(false);
-
-  useEffect(() => {
-    const checkScroll = () => setShowScroll(window.pageYOffset > 400);
-    window.addEventListener('scroll', checkScroll);
-    return () => window.removeEventListener('scroll', checkScroll);
-  }, []);
-
-  const scrollToTop = () => window.scrollTo({ top: 0, behavior: 'smooth' });
 
   const solutionIcons = [<Landmark />, <Hospital />, <Laptop />, <Store />, <Building />, <Book />];
 
   return (
     <>
-      <button
-        onClick={scrollToTop}
-        className={`fixed bottom-8 right-8 z-50 p-3 bg-gradient-to-br from-blue-600 to-blue-500 text-white rounded-full shadow-2xl shadow-blue-500/30 transition-all duration-300 hover:scale-110 hover:shadow-blue-500/50 ${
-          showScroll ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
-        }`}
-        aria-label="Scroll to top"
-      >
-        <ChevronUp className="w-6 h-6" />
-      </button>
       <div className="relative h-20 -mb-1 overflow-hidden">
         <svg 
             className="absolute bottom-0 w-full h-20" 

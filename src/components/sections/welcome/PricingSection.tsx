@@ -18,7 +18,7 @@ export default function PricingSection() {
   } = useTranslation(currentLang);
 
   return (
-    <article className="min-h-screen py-20 px-4" id="essential">
+    <article className="min-h-screen py-20 px-4 scroll-mt-28" id="essential">
       <div className="max-w-7xl mx-auto">
         {/* Header de la sección */}
         <div className="text-center mb-16">
@@ -53,7 +53,7 @@ export default function PricingSection() {
         </div>
 
         {/* Grid de planes de precios */}
-        <div id="essential" className="grid md:grid-cols-3 gap-8 mb-20">
+        <div id="essential" className="grid md:grid-cols-3 gap-8 mb-20 scroll-mt-28">
           {/* Plan Essential */}
           <div className="group p-8 bg-gradient-to-b from-slate-800/30 to-slate-900/30 backdrop-blur-sm border border-slate-700/50 rounded-2xl transition-all duration-300 hover:border-blue-500/30 hover:shadow-xl hover:shadow-blue-900/10">
             <div className="mb-8">
@@ -104,7 +104,7 @@ export default function PricingSection() {
           </div>
 
           {/* Plan Growth (RECOMENDADO) */}
-          <div id="growth" className="group relative p-8 bg-gradient-to-b from-slate-800/40 to-slate-900/40 backdrop-blur-sm border-2 border-blue-500/30 rounded-2xl transition-all duration-300 hover:border-blue-500/50 hover:shadow-2xl hover:shadow-blue-900/20 scale-105">
+          <div id="growth" className="group relative p-8 bg-gradient-to-b from-slate-800/40 to-slate-900/40 backdrop-blur-sm border-2 border-blue-500/30 rounded-2xl transition-all duration-300 hover:border-blue-500/50 hover:shadow-2xl hover:shadow-blue-900/20 scale-105 scroll-mt-28">
             {/* Badge recomendado */}
             <div className="absolute -top-3 left-1/2 -translate-x-1/2">
               <div className="inline-flex items-center px-4 py-1.5 rounded-full bg-gradient-to-r from-blue-600 to-blue-500 border border-blue-400/30">
@@ -163,7 +163,7 @@ export default function PricingSection() {
           </div>
 
           {/* Plan Scale */}
-          <div id="enterprise" className="group p-8 bg-gradient-to-b from-slate-800/30 to-slate-900/30 backdrop-blur-sm border border-slate-700/50 rounded-2xl transition-all duration-300 hover:border-purple-500/30 hover:shadow-xl hover:shadow-purple-900/10">
+          <div id="enterprise" className="group p-8 bg-gradient-to-b from-slate-800/30 to-slate-900/30 backdrop-blur-sm border border-slate-700/50 rounded-2xl transition-all duration-300 hover:border-purple-500/30 hover:shadow-xl hover:shadow-purple-900/10 scroll-mt-28">
             <div className="mb-8">
               <div className="inline-flex items-center px-3 py-1 rounded-full bg-purple-500/10 border border-purple-500/20 mb-4">
                 <span className="text-sm font-medium text-purple-300">

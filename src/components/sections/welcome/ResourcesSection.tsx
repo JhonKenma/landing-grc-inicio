@@ -18,7 +18,7 @@ export default function ResourcesSection() {
   } = useTranslation(currentLang);
 
   return (
-    <article className="min-h-screen py-20 px-4" id="resources">
+    <article className="min-h-screen py-20 px-4 scroll-mt-28" id="resources">
       <div className="max-w-7xl mx-auto">
         {/* Header de la sección */}
         <div className="text-center mb-16">
@@ -43,7 +43,7 @@ export default function ResourcesSection() {
           {/* Blog & Insights */}
           <div
             id="blog"
-            className="group p-8 bg-gradient-to-br from-slate-800/30 to-slate-900/30 backdrop-blur-sm border border-slate-700/50 rounded-2xl transition-all duration-300 hover:border-cyan-500/50 hover:translate-y-[-5px]"
+            className="group p-8 bg-gradient-to-br from-slate-800/30 to-slate-900/30 backdrop-blur-sm border border-slate-700/50 rounded-2xl transition-all duration-300 hover:border-cyan-500/50 hover:translate-y-[-5px] scroll-mt-28"
           >
             <div className="inline-flex p-4 rounded-2xl bg-cyan-500/10 mb-6">
               <div className="text-2xl"><NotebookPen /></div>
@@ -93,7 +93,7 @@ export default function ResourcesSection() {
           {/* Webinars & Events */}
           <div
             id="webinars"
-            className="group p-8 bg-gradient-to-br from-slate-800/30 to-slate-900/30 backdrop-blur-sm border border-slate-700/50 rounded-2xl transition-all duration-300 hover:border-purple-500/50 hover:translate-y-[-5px]"
+            className="group p-8 bg-gradient-to-br from-slate-800/30 to-slate-900/30 backdrop-blur-sm border border-slate-700/50 rounded-2xl transition-all duration-300 hover:border-purple-500/50 hover:translate-y-[-5px] scroll-mt-28"
           >
             <div className="inline-flex p-4 rounded-2xl bg-purple-500/10 mb-6">
               <div className="text-2xl"><Video /></div>
@@ -164,7 +164,7 @@ export default function ResourcesSection() {
           {/* Documentation */}
           <div
             id="documentation"
-            className="group p-8 bg-gradient-to-br from-slate-800/30 to-slate-900/30 backdrop-blur-sm border border-slate-700/50 rounded-2xl transition-all duration-300 hover:border-blue-500/50 hover:translate-y-[-5px]"
+            className="group p-8 bg-gradient-to-br from-slate-800/30 to-slate-900/30 backdrop-blur-sm border border-slate-700/50 rounded-2xl transition-all duration-300 hover:border-blue-500/50 hover:translate-y-[-5px] scroll-mt-28"
           >
             <div className="inline-flex p-4 rounded-2xl bg-blue-500/10 mb-6">
               <div className="text-2xl"><FileStack /></div>
@@ -214,7 +214,7 @@ export default function ResourcesSection() {
           {/* Case Studies */}
           <div
             id="case-studies"
-            className="group p-8 bg-gradient-to-br from-slate-800/30 to-slate-900/30 backdrop-blur-sm border border-slate-700/50 rounded-2xl transition-all duration-300 hover:border-emerald-500/50 hover:translate-y-[-5px]"
+            className="group p-8 bg-gradient-to-br from-slate-800/30 to-slate-900/30 backdrop-blur-sm border border-slate-700/50 rounded-2xl transition-all duration-300 hover:border-emerald-500/50 hover:translate-y-[-5px] scroll-mt-28"
           >
             <div className="inline-flex p-4 rounded-2xl bg-emerald-500/10 mb-6">
               <div className="text-2xl"><ChartColumn /></div>
@@ -273,7 +273,7 @@ export default function ResourcesSection() {
           {/* Tools */}
           <div
             id="tools"
-            className="group p-8 bg-gradient-to-br from-slate-800/30 to-slate-900/30 backdrop-blur-sm border border-slate-700/50 rounded-2xl transition-all duration-300 hover:border-amber-500/50 hover:translate-y-[-5px]"
+            className="group p-8 bg-gradient-to-br from-slate-800/30 to-slate-900/30 backdrop-blur-sm border border-slate-700/50 rounded-2xl transition-all duration-300 hover:border-amber-500/50 hover:translate-y-[-5px] scroll-mt-28"
           >
             <div className="inline-flex p-4 rounded-2xl bg-amber-500/10 mb-6">
               <div className="text-2xl"><Hammer /></div>
@@ -338,7 +338,7 @@ export default function ResourcesSection() {
           {/* Support */}
           <div
             id="support"
-            className="group p-8 bg-gradient-to-br from-slate-800/30 to-slate-900/30 backdrop-blur-sm border border-slate-700/50 rounded-2xl transition-all duration-300 hover:border-rose-500/50 hover:translate-y-[-5px]"
+            className="group p-8 bg-gradient-to-br from-slate-800/30 to-slate-900/30 backdrop-blur-sm border border-slate-700/50 rounded-2xl transition-all duration-300 hover:border-rose-500/50 hover:translate-y-[-5px] scroll-mt-28"
           >
             <div className="inline-flex p-4 rounded-2xl bg-rose-500/10 mb-6">
               <div className="text-2xl"><LifeBuoy /></div>

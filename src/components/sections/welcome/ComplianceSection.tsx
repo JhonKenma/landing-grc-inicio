@@ -28,7 +28,7 @@ export default function ComplianceSection() {
   } = useTranslation(currentLang);
 
   return (
-    <article className="min-h-screen py-20 px-4" id="compliance">
+    <article className="min-h-screen py-20 px-4 scroll-mt-28" id="compliance">
       <div className="max-w-7xl mx-auto">
         {/* Header de la sección */}
         <div className="text-center mb-16">
